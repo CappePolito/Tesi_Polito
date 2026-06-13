@@ -238,4 +238,497 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Full Projection Equation}{16}{subsection.2.3.5}\protected@file@percent }
 \newlabel{subsec:projection_eq}{{2.3.5}{16}{Full Projection Equation}{subsection.2.3.5}{}}
 \newlabel{eq:projection}{{2.21}{16}{Full Projection Equation}{equation.2.21}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Pose Estim
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Pose Estimation}{16}{section.2.4}\protected@file@percent }
+\newlabel{sec:pose_estimation}{{2.4}{16}{Pose Estimation}{section.2.4}{}}
+\abx@aux@backref{37}{hartley2004multiple}{0}{16}{16}
+\newlabel{fig:lens_distortion_comparison}{{2.4a}{17}{Effect of lens distortion on ChArUco marker detection}{figure.caption.14}{}}
+\newlabel{sub@fig:lens_distortion_comparison}{{a}{17}{Effect of lens distortion on ChArUco marker detection}{figure.caption.14}{}}
+\newlabel{fig:distortion_zoom}{{2.4b}{17}{Zoomed-in region highlighting marker displacement}{figure.caption.14}{}}
+\newlabel{sub@fig:distortion_zoom}{{b}{17}{Zoomed-in region highlighting marker displacement}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Impact of lens distortion on ChArUco corner localization. The distortion causes systematic displacement of image features, which can negatively affect pose estimation and calibration accuracy.}}{17}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:distortion_full}{{2.4}{17}{Impact of lens distortion on ChArUco corner localization. The distortion causes systematic displacement of image features, which can negatively affect pose estimation and calibration accuracy}{figure.caption.14}{}}
+\abx@aux@cite{0}{hartley2004multiple}
+\abx@aux@segm{0}{0}{hartley2004multiple}
+\abx@aux@cite{0}{lepetit2009epnp}
+\abx@aux@segm{0}{0}{lepetit2009epnp}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}The Perspective-\textit  {n}-Point Problem}{18}{subsection.2.4.1}\protected@file@percent }
+\newlabel{subsec:pnp}{{2.4.1}{18}{The Perspective-\textit {n}-Point Problem}{subsection.2.4.1}{}}
+\abx@aux@backref{38}{lepetit2009epnp}{0}{18}{18}
+\newlabel{eq:pnp_reprojection}{{2.22}{18}{The Perspective-\textit {n}-Point Problem}{equation.2.22}{}}
+\abx@aux@backref{39}{hartley2004multiple}{0}{18}{18}
+\abx@aux@backref{40}{lepetit2009epnp}{0}{18}{18}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Pose Estimation with OpenCV}{18}{subsection.2.4.2}\protected@file@percent }
+\newlabel{subsec:pnp_opencv}{{2.4.2}{18}{Pose Estimation with OpenCV}{subsection.2.4.2}{}}
+\abx@aux@backref{41}{bradski2008learning}{0}{18}{18}
+\abx@aux@cite{0}{lepetit2009epnp}
+\abx@aux@segm{0}{0}{lepetit2009epnp}
+\abx@aux@cite{0}{hartley2004multiple}
+\abx@aux@segm{0}{0}{hartley2004multiple}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\abx@aux@cite{0}{enebuse2021comparative}
+\abx@aux@segm{0}{0}{enebuse2021comparative}
+\abx@aux@cite{0}{shiu1989calibration}
+\abx@aux@segm{0}{0}{shiu1989calibration}
+\abx@aux@cite{0}{tsai1989new}
+\abx@aux@segm{0}{0}{tsai1989new}
+\abx@aux@cite{0}{horaud1995hand}
+\abx@aux@segm{0}{0}{horaud1995hand}
+\newlabel{eq:pnp_output}{{2.23}{19}{Pose Estimation with OpenCV}{equation.2.23}{}}
+\abx@aux@backref{42}{lepetit2009epnp}{0}{19}{19}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Planar and Non-Planar Configurations}{19}{subsection.2.4.3}\protected@file@percent }
+\newlabel{subsec:planar}{{2.4.3}{19}{Planar and Non-Planar Configurations}{subsection.2.4.3}{}}
+\abx@aux@backref{43}{hartley2004multiple}{0}{19}{19}
+\@writefile{toc}{\contentsline {paragraph}{Planar configurations.}{19}{section*.15}\protected@file@percent }
+\abx@aux@backref{44}{zhang2000flexible}{0}{19}{19}
+\@writefile{toc}{\contentsline {paragraph}{Non-planar configurations.}{19}{section*.16}\protected@file@percent }
+\abx@aux@backref{45}{zhang2000flexible}{0}{19}{19}
+\abx@aux@backref{46}{enebuse2021comparative}{0}{19}{19}
+\abx@aux@cite{0}{shiu1989calibration}
+\abx@aux@segm{0}{0}{shiu1989calibration}
+\abx@aux@cite{0}{tsai1989new}
+\abx@aux@segm{0}{0}{tsai1989new}
+\abx@aux@cite{0}{tsai1989new}
+\abx@aux@segm{0}{0}{tsai1989new}
+\abx@aux@cite{0}{horaud1995hand}
+\abx@aux@segm{0}{0}{horaud1995hand}
+\abx@aux@cite{0}{daniilidis1999hand}
+\abx@aux@segm{0}{0}{daniilidis1999hand}
+\abx@aux@cite{0}{park1994robot}
+\abx@aux@segm{0}{0}{park1994robot}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Hand-Eye Calibration Theory}{20}{section.2.5}\protected@file@percent }
+\newlabel{sec:hec_theory}{{2.5}{20}{Hand-Eye Calibration Theory}{section.2.5}{}}
+\abx@aux@backref{47}{shiu1989calibration}{0}{20}{20}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Problem Formulation}{20}{subsection.2.5.1}\protected@file@percent }
+\newlabel{subsec:hec_formulation}{{2.5.1}{20}{Problem Formulation}{subsection.2.5.1}{}}
+\newlabel{eq:axxb}{{2.24}{20}{Problem Formulation}{equation.2.24}{}}
+\abx@aux@backref{48}{shiu1989calibration}{0}{20}{20}
+\newlabel{eq:rot_subproblem}{{2.25}{20}{Problem Formulation}{equation.2.25}{}}
+\newlabel{eq:trans_subproblem}{{2.26}{20}{Problem Formulation}{equation.2.26}{}}
+\abx@aux@cite{0}{horaud1995hand}
+\abx@aux@segm{0}{0}{horaud1995hand}
+\abx@aux@cite{0}{enebuse2021comparative}
+\abx@aux@segm{0}{0}{enebuse2021comparative}
+\abx@aux@backref{49}{daniilidis1999hand}{0}{21}{21}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Eye-in-Hand Configuration}{21}{subsection.2.5.2}\protected@file@percent }
+\newlabel{subsec:eye_in_hand}{{2.5.2}{21}{Eye-in-Hand Configuration}{subsection.2.5.2}{}}
+\newlabel{eq:chain_eih}{{2.27}{21}{Eye-in-Hand Configuration}{equation.2.27}{}}
+\newlabel{eq:AB_eih}{{2.28}{21}{Eye-in-Hand Configuration}{equation.2.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Eye-to-Hand Configuration}{21}{subsection.2.5.3}\protected@file@percent }
+\newlabel{subsec:eye_to_hand}{{2.5.3}{21}{Eye-to-Hand Configuration}{subsection.2.5.3}{}}
+\newlabel{eq:AB_eth}{{2.29}{21}{Eye-to-Hand Configuration}{equation.2.29}{}}
+\abx@aux@backref{50}{enebuse2021comparative}{0}{21}{21}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Comparison between the eye-in-hand and eye-to-hand configurations used in hand-eye calibration. In the eye-in-hand setup, the camera is mounted on the robot end-effector and moves together with the manipulator, whereas in the eye-to-hand setup the camera remains fixed in the environment and observes the robot workspace externally. The unknown transformation $\mathbf  {X}$ changes depending on the selected configuration.}}{22}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:eye_in_hand_vs_eye_to_hand}{{2.5}{22}{Comparison between the eye-in-hand and eye-to-hand configurations used in hand-eye calibration. In the eye-in-hand setup, the camera is mounted on the robot end-effector and moves together with the manipulator, whereas in the eye-to-hand setup the camera remains fixed in the environment and observes the robot workspace externally. The unknown transformation $\mathbf {X}$ changes depending on the selected configuration}{figure.caption.17}{}}
+\abx@aux@cite{0}{shiu1989calibration}
+\abx@aux@segm{0}{0}{shiu1989calibration}
+\abx@aux@cite{0}{tsai1989new}
+\abx@aux@segm{0}{0}{tsai1989new}
+\abx@aux@cite{0}{horaud1995hand}
+\abx@aux@segm{0}{0}{horaud1995hand}
+\abx@aux@cite{0}{daniilidis1999hand}
+\abx@aux@segm{0}{0}{daniilidis1999hand}
+\abx@aux@cite{0}{strobl2006optimal}
+\abx@aux@segm{0}{0}{strobl2006optimal}
+\abx@aux@cite{0}{shiu1989calibration}
+\abx@aux@segm{0}{0}{shiu1989calibration}
+\abx@aux@cite{0}{park1994robot}
+\abx@aux@segm{0}{0}{park1994robot}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Solution Methods}{23}{subsection.2.5.4}\protected@file@percent }
+\newlabel{subsec:hec_methods}{{2.5.4}{23}{Solution Methods}{subsection.2.5.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Two-stage closed-form methods.}{23}{section*.18}\protected@file@percent }
+\abx@aux@backref{51}{shiu1989calibration}{0}{23}{23}
+\@writefile{toc}{\contentsline {paragraph}{Simultaneous rotation--translation methods.}{23}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Dual quaternion method.}{23}{section*.20}\protected@file@percent }
+\abx@aux@backref{52}{daniilidis1999hand}{0}{23}{23}
+\newlabel{eq:dual_quat}{{2.30}{23}{Dual quaternion method}{equation.2.30}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Observability Conditions and Degenerate Motions}{23}{subsection.2.5.5}\protected@file@percent }
+\newlabel{subsec:observability}{{2.5.5}{23}{Observability Conditions and Degenerate Motions}{subsection.2.5.5}{}}
+\abx@aux@backref{53}{strobl2006optimal}{0}{23}{23}
+\abx@aux@backref{54}{shiu1989calibration}{0}{23}{23}
+\abx@aux@cite{0}{strobl2006optimal}
+\abx@aux@segm{0}{0}{strobl2006optimal}
+\abx@aux@cite{0}{OpenCVHandEye}
+\abx@aux@segm{0}{0}{OpenCVHandEye}
+\abx@aux@cite{0}{Tsai1989}
+\abx@aux@segm{0}{0}{Tsai1989}
+\abx@aux@backref{55}{strobl2006optimal}{0}{24}{24}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Related Work}{24}{section.2.6}\protected@file@percent }
+\newlabel{eq:axxb}{{2.31}{24}{Related Work}{equation.2.31}{}}
+\abx@aux@backref{56}{OpenCVHandEye}{0}{24}{24}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Typical hand-eye calibration pipeline adopted in robot vision systems. The workflow starts from synchronized robot poses and image acquisition, followed by target detection, camera pose estimation, motion pair construction, calibration solving, and final validation.}}{25}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:handeye_pipeline}{{2.6}{25}{Typical hand-eye calibration pipeline adopted in robot vision systems. The workflow starts from synchronized robot poses and image acquisition, followed by target detection, camera pose estimation, motion pair construction, calibration solving, and final validation}{figure.caption.21}{}}
+\abx@aux@cite{0}{ParkMartin1994}
+\abx@aux@segm{0}{0}{ParkMartin1994}
+\abx@aux@cite{0}{HoraudDornaika1995}
+\abx@aux@segm{0}{0}{HoraudDornaika1995}
+\abx@aux@cite{0}{HoraudDornaika2023}
+\abx@aux@segm{0}{0}{HoraudDornaika2023}
+\abx@aux@cite{0}{Tsai1989}
+\abx@aux@segm{0}{0}{Tsai1989}
+\abx@aux@cite{0}{ParkMartin1994}
+\abx@aux@segm{0}{0}{ParkMartin1994}
+\abx@aux@cite{0}{HoraudDornaika2023}
+\abx@aux@segm{0}{0}{HoraudDornaika2023}
+\abx@aux@cite{0}{Enebuse2022}
+\abx@aux@segm{0}{0}{Enebuse2022}
+\abx@aux@backref{57}{Tsai1989}{0}{26}{26}
+\abx@aux@backref{58}{ParkMartin1994}{0}{26}{26}
+\abx@aux@backref{59}{HoraudDornaika1995}{0}{26}{26}
+\newlabel{eq:translation}{{2.34}{26}{Classical methods}{equation.2.34}{}}
+\abx@aux@backref{60}{Tsai1989}{0}{26}{26}
+\abx@aux@backref{61}{ParkMartin1994}{0}{26}{26}
+\newlabel{eq:nonlinear_objective}{{2.35}{26}{Optimization-based approaches}{equation.2.35}{}}
+\abx@aux@backref{62}{Enebuse2022}{0}{26}{26}
+\abx@aux@cite{0}{Daniilidis1996}
+\abx@aux@segm{0}{0}{Daniilidis1996}
+\abx@aux@cite{0}{Daniilidis1996}
+\abx@aux@segm{0}{0}{Daniilidis1996}
+\abx@aux@cite{0}{OpenCVHandEye}
+\abx@aux@segm{0}{0}{OpenCVHandEye}
+\abx@aux@cite{0}{Enebuse2022}
+\abx@aux@segm{0}{0}{Enebuse2022}
+\abx@aux@cite{0}{OpenCVHandEye}
+\abx@aux@segm{0}{0}{OpenCVHandEye}
+\abx@aux@cite{0}{Enebuse2022}
+\abx@aux@segm{0}{0}{Enebuse2022}
+\abx@aux@backref{63}{Daniilidis1996}{0}{27}{27}
+\abx@aux@backref{64}{Daniilidis1996}{0}{27}{27}
+\abx@aux@backref{65}{OpenCVHandEye}{0}{27}{27}
+\abx@aux@backref{66}{Enebuse2022}{0}{27}{27}
+\abx@aux@backref{67}{OpenCVHandEye}{0}{27}{27}
+\abx@aux@backref{68}{Enebuse2022}{0}{27}{27}
+\abx@aux@cite{0}{siciliano2009robotics}
+\abx@aux@segm{0}{0}{siciliano2009robotics}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}System Architecture}{28}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{sec:system_architecture}{{3}{28}{Practical implementations and experimental considerations}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Hardware Setup}{28}{section.3.1}\protected@file@percent }
+\newlabel{sec:hardware_setup}{{3.1}{28}{Hardware Setup}{section.3.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of the experimental hardware setup.}}{28}{table.caption.26}\protected@file@percent }
+\newlabel{tab:hardware_summary}{{3.1}{28}{Summary of the experimental hardware setup}{table.caption.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Robot System}{28}{subsection.3.1.1}\protected@file@percent }
+\newlabel{subsec:robot_system}{{3.1.1}{28}{Robot System}{subsection.3.1.1}{}}
+\abx@aux@backref{69}{siciliano2009robotics}{0}{28}{28}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces FANUC LR Mate 200iD robotic manipulator used in the experimental setup.}}{29}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:fanucLRMate_robot}{{3.1}{29}{FANUC LR Mate 200iD robotic manipulator used in the experimental setup}{figure.caption.27}{}}
+\newlabel{fig:setup_robot_close}{{3.2a}{30}{Robot with eye-in-hand camera setup}{figure.caption.28}{}}
+\newlabel{sub@fig:setup_robot_close}{{a}{30}{Robot with eye-in-hand camera setup}{figure.caption.28}{}}
+\newlabel{fig:setup_full}{{3.2b}{30}{Complete experimental setup showing workspace and ChArUco board}{figure.caption.28}{}}
+\newlabel{sub@fig:setup_full}{{b}{30}{Complete experimental setup showing workspace and ChArUco board}{figure.caption.28}{}}
+\newlabel{fig:setup_top}{{3.2c}{30}{Top view highlighting geometric relations in the eye-in-hand setup}{figure.caption.28}{}}
+\newlabel{sub@fig:setup_top}{{c}{30}{Top view highlighting geometric relations in the eye-in-hand setup}{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Experimental setup used for hand-eye calibration: (a) close-up view of the FANUC LR Mate 200iD with camera mounted on the end-effector, (b) full workspace configuration including calibration target placement, and (c) top-view perspective highlighting spatial relationships between robot, camera, and target.}}{30}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:experimental_setup}{{3.2}{30}{Experimental setup used for hand-eye calibration: (a) close-up view of the FANUC LR Mate 200iD with camera mounted on the end-effector, (b) full workspace configuration including calibration target placement, and (c) top-view perspective highlighting spatial relationships between robot, camera, and target}{figure.caption.28}{}}
+\abx@aux@cite{0}{garrido2014aruco}
+\abx@aux@segm{0}{0}{garrido2014aruco}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Camera System}{31}{subsection.3.1.2}\protected@file@percent }
+\newlabel{subsec:camera_system}{{3.1.2}{31}{Camera System}{subsection.3.1.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Lens}{31}{subsection.3.1.3}\protected@file@percent }
+\newlabel{subsec:lens}{{3.1.3}{31}{Lens}{subsection.3.1.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Eye-in-hand vision setup: camera mounted on the robot end-effector using a custom 3D-printed adapter.}}{32}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:camera_setup}{{3.3}{32}{Eye-in-hand vision setup: camera mounted on the robot end-effector using a custom 3D-printed adapter}{figure.caption.29}{}}
+\abx@aux@cite{0}{garrido2014aruco}
+\abx@aux@segm{0}{0}{garrido2014aruco}
+\abx@aux@cite{0}{garrido2014aruco}
+\abx@aux@segm{0}{0}{garrido2014aruco}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Calibration Target}{33}{subsection.3.1.4}\protected@file@percent }
+\newlabel{subsec:calibration_target}{{3.1.4}{33}{Calibration Target}{subsection.3.1.4}{}}
+\abx@aux@backref{70}{garrido2014aruco}{0}{33}{33}
+\abx@aux@backref{71}{garrido2014aruco}{0}{33}{33}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces ChArUco calibration board used during the acquisition process. The board combines a checkerboard pattern with embedded ArUco markers, enabling robust and accurate corner detection for camera calibration and pose estimation.}}{33}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:charuco_board}{{3.4}{33}{ChArUco calibration board used during the acquisition process. The board combines a checkerboard pattern with embedded ArUco markers, enabling robust and accurate corner detection for camera calibration and pose estimation}{figure.caption.30}{}}
+\abx@aux@backref{72}{garrido2014aruco}{0}{33}{33}
+\abx@aux@cite{0}{craig2005introduction}
+\abx@aux@segm{0}{0}{craig2005introduction}
+\abx@aux@cite{0}{siciliano2009robotics}
+\abx@aux@segm{0}{0}{siciliano2009robotics}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Coordinate Frames Definition}{34}{section.3.2}\protected@file@percent }
+\newlabel{sec:coordinate_frames}{{3.2}{34}{Coordinate Frames Definition}{section.3.2}{}}
+\abx@aux@backref{73}{craig2005introduction}{0}{34}{34}
+\abx@aux@backref{74}{siciliano2009robotics}{0}{34}{34}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Robot Base Frame $\{B\}$}{34}{subsection.3.2.1}\protected@file@percent }
+\newlabel{subsec:frame_base}{{3.2.1}{34}{Robot Base Frame \texorpdfstring {$\{B\}$}{B}}{subsection.3.2.1}{}}
+\abx@aux@cite{0}{hartley2004multiple}
+\abx@aux@segm{0}{0}{hartley2004multiple}
+\newlabel{eq:T_BE}{{3.1}{35}{Robot Base Frame \texorpdfstring {$\{B\}$}{B}}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}End-Effector Frame $\{E\}$}{35}{subsection.3.2.2}\protected@file@percent }
+\newlabel{subsec:frame_ee}{{3.2.2}{35}{End-Effector Frame \texorpdfstring {$\{E\}$}{E}}{subsection.3.2.2}{}}
+\newlabel{eq:X_EC}{{3.2}{35}{End-Effector Frame \texorpdfstring {$\{E\}$}{E}}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Camera Frame $\{C\}$}{35}{subsection.3.2.3}\protected@file@percent }
+\newlabel{subsec:frame_camera}{{3.2.3}{35}{Camera Frame \texorpdfstring {$\{C\}$}{C}}{subsection.3.2.3}{}}
+\abx@aux@backref{75}{hartley2004multiple}{0}{35}{35}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Target Frame $\{T\}$}{36}{subsection.3.2.4}\protected@file@percent }
+\newlabel{subsec:frame_target}{{3.2.4}{36}{Target Frame \texorpdfstring {$\{T\}$}{T}}{subsection.3.2.4}{}}
+\newlabel{eq:T_CT}{{3.3}{36}{Target Frame \texorpdfstring {$\{T\}$}{T}}{equation.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Transformation Relationships and Calibration Equation}{36}{subsection.3.2.5}\protected@file@percent }
+\newlabel{subsec:frame_relationships}{{3.2.5}{36}{Transformation Relationships and Calibration Equation}{subsection.3.2.5}{}}
+\newlabel{eq:chain_consistency}{{3.4}{36}{Transformation Relationships and Calibration Equation}{equation.3.4}{}}
+\newlabel{eq:axb_frames}{{3.5}{36}{Transformation Relationships and Calibration Equation}{equation.3.5}{}}
+\newlabel{eq:A_ij}{{3.6}{36}{Transformation Relationships and Calibration Equation}{equation.3.6}{}}
+\newlabel{eq:B_ij}{{3.7}{36}{Transformation Relationships and Calibration Equation}{equation.3.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces The four coordinate frames involved in the eye-in-hand calibration setup and the rigid transformations between them. The unknown transformation $\mathbf  {X} = {}^E_C\mathbf  {T}$ (dashed red) is estimated by the calibration procedure from the known robot motions $\mathbf  {A}_{ij}$ and the camera-observed target motions $\mathbf  {B}_{ij}$.}}{37}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:coordinate_frames}{{3.5}{37}{The four coordinate frames involved in the eye-in-hand calibration setup and the rigid transformations between them. The unknown transformation $\mathbf {X} = {}^E_C\mathbf {T}$ (dashed red) is estimated by the calibration procedure from the known robot motions $\mathbf {A}_{ij}$ and the camera-observed target motions $\mathbf {B}_{ij}$}{figure.caption.32}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Coordinate frames and associated transformations.}}{38}{table.caption.31}\protected@file@percent }
+\newlabel{tab:frames_summary}{{3.2}{38}{Coordinate frames and associated transformations}{table.caption.31}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data Acquisition Pipeline}{38}{section.3.3}\protected@file@percent }
+\newlabel{sec:acquisition_pipeline}{{3.3}{38}{Data Acquisition Pipeline}{section.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Robot Pose Acquisition}{38}{subsection.3.3.1}\protected@file@percent }
+\newlabel{subsec:robot_pose_acq}{{3.3.1}{38}{Robot Pose Acquisition}{subsection.3.3.1}{}}
+\newlabel{eq:recorded_poses}{{3.8}{38}{Robot Pose Acquisition}{equation.3.8}{}}
+\abx@aux@cite{0}{garrido2014aruco}
+\abx@aux@segm{0}{0}{garrido2014aruco}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Image Acquisition}{39}{subsection.3.3.2}\protected@file@percent }
+\newlabel{subsec:image_acq}{{3.3.2}{39}{Image Acquisition}{subsection.3.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}ChArUco Feature Detection}{39}{subsection.3.3.3}\protected@file@percent }
+\newlabel{subsec:feature_detection}{{3.3.3}{39}{ChArUco Feature Detection}{subsection.3.3.3}{}}
+\abx@aux@backref{76}{garrido2014aruco}{0}{39}{39}
+\abx@aux@backref{77}{bradski2008learning}{0}{39}{39}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Pose Estimation and Data Validation}{39}{subsection.3.3.4}\protected@file@percent }
+\newlabel{subsec:pose_est_filtering}{{3.3.4}{39}{Pose Estimation and Data Validation}{subsection.3.3.4}{}}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Data Pairing and Input to Calibration}{40}{subsection.3.3.5}\protected@file@percent }
+\newlabel{subsec:data_pairing}{{3.3.5}{40}{Data Pairing and Input to Calibration}{subsection.3.3.5}{}}
+\abx@aux@backref{78}{bradski2008learning}{0}{40}{40}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Data acquisition pipeline for hand-eye calibration. At each robot pose, an image is captured and processed through ChArUco detection and PnP pose estimation. Observations failing the quality criteria are discarded. The validated dataset is used to compute the motion pairs $(\mathbf  {A}_{ij}, \mathbf  {B}_{ij})$ for the calibration algorithm.}}{41}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:acquisition_pipeline}{{3.6}{41}{Data acquisition pipeline for hand-eye calibration. At each robot pose, an image is captured and processed through ChArUco detection and PnP pose estimation. Observations failing the quality criteria are discarded. The validated dataset is used to compute the motion pairs $(\mathbf {A}_{ij}, \mathbf {B}_{ij})$ for the calibration algorithm}{figure.caption.33}{}}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\abx@aux@cite{0}{hartley2004multiple}
+\abx@aux@segm{0}{0}{hartley2004multiple}
+\abx@aux@cite{0}{garrido2014aruco}
+\abx@aux@segm{0}{0}{garrido2014aruco}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Proposed calibration method}{42}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{sec:proposed_calibration_method}{{4}{42}{Data Pairing and Input to Calibration}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Intrinsic Calibration}{42}{section.4.1}\protected@file@percent }
+\newlabel{sec:intrinsic_calibration}{{4.1}{42}{Intrinsic Calibration}{section.4.1}{}}
+\abx@aux@backref{79}{zhang2000flexible}{0}{42}{42}
+\abx@aux@backref{80}{hartley2004multiple}{0}{42}{42}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Calibration Target Definition}{42}{subsection.4.1.1}\protected@file@percent }
+\newlabel{subsec:intr_target}{{4.1.1}{42}{Calibration Target Definition}{subsection.4.1.1}{}}
+\abx@aux@backref{81}{garrido2014aruco}{0}{42}{42}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Rigid metallic ChArUco board used for intrinsic and hand-eye calibration. The board combines a checkerboard pattern with embedded ArUco markers, enabling robust corner identification and sub-pixel localization under partial occlusions and perspective distortion.}}{43}{figure.caption.34}\protected@file@percent }
+\newlabel{fig:charuco_board_intrinsic}{{4.1}{43}{Rigid metallic ChArUco board used for intrinsic and hand-eye calibration. The board combines a checkerboard pattern with embedded ArUco markers, enabling robust corner identification and sub-pixel localization under partial occlusions and perspective distortion}{figure.caption.34}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Corner Detection and Refinement}{44}{subsection.4.1.2}\protected@file@percent }
+\newlabel{subsec:intr_detection}{{4.1.2}{44}{Corner Detection and Refinement}{subsection.4.1.2}{}}
+\abx@aux@backref{82}{bradski2008learning}{0}{44}{44}
+\newlabel{eq:correspondences}{{4.1}{44}{Corner Detection and Refinement}{equation.4.1}{}}
+\newlabel{fig:intrinsic_reprojection_full}{{4.2a}{44}{Full calibration image showing detected and reprojected feature points used during intrinsic calibration}{figure.caption.35}{}}
+\newlabel{sub@fig:intrinsic_reprojection_full}{{a}{44}{Full calibration image showing detected and reprojected feature points used during intrinsic calibration}{figure.caption.35}{}}
+\newlabel{fig:intrinsic_reprojection_zoom}{{4.2b}{44}{Zoomed-in detail showing the detected corner (blue) and the corresponding reprojected corner (green)}{figure.caption.35}{}}
+\newlabel{sub@fig:intrinsic_reprojection_zoom}{{b}{44}{Zoomed-in detail showing the detected corner (blue) and the corresponding reprojected corner (green)}{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of corner detection and reprojection during intrinsic calibration. The close alignment between observed and reprojected points indicates low reprojection error and accurate estimation of the intrinsic camera parameters.}}{44}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:intrinsic_reprojection}{{4.2}{44}{Example of corner detection and reprojection during intrinsic calibration. The close alignment between observed and reprojected points indicates low reprojection error and accurate estimation of the intrinsic camera parameters}{figure.caption.35}{}}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\abx@aux@cite{0}{hartley2004multiple}
+\abx@aux@segm{0}{0}{hartley2004multiple}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Calibration Procedure}{45}{subsection.4.1.3}\protected@file@percent }
+\newlabel{subsec:intr_procedure}{{4.1.3}{45}{Calibration Procedure}{subsection.4.1.3}{}}
+\newlabel{eq:calib_optim}{{4.2}{45}{Calibration Procedure}{equation.4.2}{}}
+\abx@aux@backref{83}{zhang2000flexible}{0}{45}{45}
+\abx@aux@backref{84}{bradski2008learning}{0}{45}{45}
+\abx@aux@backref{85}{zhang2000flexible}{0}{45}{45}
+\abx@aux@backref{86}{hartley2004multiple}{0}{45}{45}
+\abx@aux@cite{0}{zhang2000flexible}
+\abx@aux@segm{0}{0}{zhang2000flexible}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Reprojection Error and Quality Assessment}{46}{subsection.4.1.4}\protected@file@percent }
+\newlabel{subsec:intr_reproj}{{4.1.4}{46}{Reprojection Error and Quality Assessment}{subsection.4.1.4}{}}
+\newlabel{eq:rms_rpe}{{4.3}{46}{Reprojection Error and Quality Assessment}{equation.4.3}{}}
+\abx@aux@backref{87}{zhang2000flexible}{0}{46}{46}
+\newlabel{eq:per_image_rpe}{{4.4}{46}{Reprojection Error and Quality Assessment}{equation.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison between distorted and undistorted views of the ChArUco board after intrinsic calibration. The undistorted image shows corrected geometry and improved alignment of checkerboard corners and ArUco markers, validating the estimated intrinsic parameters.}}{46}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:charuco_undistortion}{{4.3}{46}{Comparison between distorted and undistorted views of the ChArUco board after intrinsic calibration. The undistorted image shows corrected geometry and improved alignment of checkerboard corners and ArUco markers, validating the estimated intrinsic parameters}{figure.caption.36}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Intrinsic parameters of the Cognex CAM-CIC-12-9C-IP67 camera estimated via calibration.}}{47}{table.caption.37}\protected@file@percent }
+\newlabel{tab:intrinsics}{{4.1}{47}{Intrinsic parameters of the Cognex CAM-CIC-12-9C-IP67 camera estimated via calibration}{table.caption.37}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Extrinsic Calibration}{47}{section.4.2}\protected@file@percent }
+\newlabel{sec:extrinsic_calibration}{{4.2}{47}{Extrinsic Calibration}{section.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Pose Estimation}{48}{subsection.4.2.1}\protected@file@percent }
+\newlabel{subsec:extr_pose_est}{{4.2.1}{48}{Pose Estimation}{subsection.4.2.1}{}}
+\newlabel{eq:CT_k}{{4.7}{48}{Pose Estimation}{equation.4.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Construction of Motion Pairs}{48}{subsection.4.2.2}\protected@file@percent }
+\newlabel{subsec:motion_pairs}{{4.2.2}{48}{Construction of Motion Pairs}{subsection.4.2.2}{}}
+\newlabel{eq:A_ij_extr}{{4.8}{48}{Construction of Motion Pairs}{equation.4.8}{}}
+\newlabel{eq:B_ij_extr}{{4.9}{48}{Construction of Motion Pairs}{equation.4.9}{}}
+\abx@aux@cite{0}{strobl2006optimal}
+\abx@aux@segm{0}{0}{strobl2006optimal}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\abx@aux@cite{0}{tsai1989new}
+\abx@aux@segm{0}{0}{tsai1989new}
+\abx@aux@cite{0}{park1994robot}
+\abx@aux@segm{0}{0}{park1994robot}
+\abx@aux@cite{0}{horaud1995hand}
+\abx@aux@segm{0}{0}{horaud1995hand}
+\abx@aux@cite{0}{andreff1999online}
+\abx@aux@segm{0}{0}{andreff1999online}
+\abx@aux@cite{0}{daniilidis1999hand}
+\abx@aux@segm{0}{0}{daniilidis1999hand}
+\newlabel{eq:rot_angle}{{4.10}{49}{Construction of Motion Pairs}{equation.4.10}{}}
+\abx@aux@backref{88}{strobl2006optimal}{0}{49}{49}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Hand-Eye Calibration Methods}{49}{subsection.4.2.3}\protected@file@percent }
+\newlabel{subsec:calib_methods}{{4.2.3}{49}{Hand-Eye Calibration Methods}{subsection.4.2.3}{}}
+\abx@aux@backref{89}{bradski2008learning}{0}{49}{49}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Hand-eye calibration methods available in \texttt  {cv::calibrateHandEye()} and evaluated in this work.}}{49}{table.caption.38}\protected@file@percent }
+\newlabel{tab:hec_methods}{{4.2}{49}{Hand-eye calibration methods available in \texttt {cv::calibrateHandEye()} and evaluated in this work}{table.caption.38}{}}
+\abx@aux@backref{90}{daniilidis1999hand}{0}{49}{49}
+\abx@aux@cite{0}{bradski2008learning}
+\abx@aux@segm{0}{0}{bradski2008learning}
+\newlabel{eq:X_estimated}{{4.13}{50}{Hand-Eye Calibration Methods}{equation.4.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Implementation Details}{50}{subsection.4.2.4}\protected@file@percent }
+\newlabel{subsec:extr_implementation}{{4.2.4}{50}{Implementation Details}{subsection.4.2.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Python prototype.}{50}{section*.39}\protected@file@percent }
+\abx@aux@backref{91}{bradski2008learning}{0}{50}{50}
+\@writefile{toc}{\contentsline {paragraph}{C\# production implementation.}{50}{section*.40}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Calibration validation interface.}{51}{section*.41}\protected@file@percent }
+\newlabel{eq:pixel_to_base}{{4.14}{51}{Calibration validation interface}{equation.4.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Improvements and Refinements}{51}{section.4.3}\protected@file@percent }
+\newlabel{sec:improvements}{{4.3}{51}{Improvements and Refinements}{section.4.3}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Extrinsic hand-eye calibration pipeline}}{52}{algorithm.1}\protected@file@percent }
+\newlabel{alg:extrinsic}{{1}{52}{Extrinsic hand-eye calibration pipeline}{algorithm.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Extrinsic calibration pipeline. Robot kinematics and vision-based pose estimation provide the motion pairs $(\mathbf  {A}_{ij}, \mathbf  {B}_{ij})$, which are passed to \texttt  {cv::calibrateHandEye()} to estimate the unknown transformation $\hat  {\mathbf  {X}} = {}^E_C\hat  {\mathbf  {T}}$.}}{53}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:extrinsic_pipeline}{{4.4}{53}{Extrinsic calibration pipeline. Robot kinematics and vision-based pose estimation provide the motion pairs $(\mathbf {A}_{ij}, \mathbf {B}_{ij})$, which are passed to \texttt {cv::calibrateHandEye()} to estimate the unknown transformation $\hat {\mathbf {X}} = {}^E_C\hat {\mathbf {T}}$}{figure.caption.42}{}}
+\abx@aux@cite{0}{umeyama1991least}
+\abx@aux@segm{0}{0}{umeyama1991least}
+\abx@aux@cite{0}{umeyama1991least}
+\abx@aux@segm{0}{0}{umeyama1991least}
+\abx@aux@cite{0}{umeyama1991least}
+\abx@aux@segm{0}{0}{umeyama1991least}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Rigid Transformation Refinement: Kabsch--Umeyama Method}{54}{subsection.4.3.1}\protected@file@percent }
+\newlabel{subsec:kabsch}{{4.3.1}{54}{Rigid Transformation Refinement: Kabsch--Umeyama Method}{subsection.4.3.1}{}}
+\abx@aux@backref{92}{umeyama1991least}{0}{54}{54}
+\newlabel{eq:kabsch_obj}{{4.15}{54}{Rigid Transformation Refinement: Kabsch--Umeyama Method}{equation.4.15}{}}
+\abx@aux@backref{93}{umeyama1991least}{0}{54}{54}
+\newlabel{eq:kabsch_svd}{{4.16}{54}{Rigid Transformation Refinement: Kabsch--Umeyama Method}{equation.4.16}{}}
+\newlabel{eq:kabsch_R}{{4.17}{54}{Rigid Transformation Refinement: Kabsch--Umeyama Method}{equation.4.17}{}}
+\newlabel{eq:kabsch_t}{{4.18}{54}{Rigid Transformation Refinement: Kabsch--Umeyama Method}{equation.4.18}{}}
+\abx@aux@backref{94}{umeyama1991least}{0}{54}{54}
+\abx@aux@cite{0}{strobl2006optimal}
+\abx@aux@segm{0}{0}{strobl2006optimal}
+\abx@aux@cite{0}{park1994robot}
+\abx@aux@segm{0}{0}{park1994robot}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Pose Selection and Motion Diversity}{55}{subsection.4.3.2}\protected@file@percent }
+\newlabel{subsec:pose_selection}{{4.3.2}{55}{Pose Selection and Motion Diversity}{subsection.4.3.2}{}}
+\abx@aux@backref{95}{strobl2006optimal}{0}{55}{55}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Experimental Evaluation}{57}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{sec:experiental_evaluation}{{5}{57}{Pose Selection and Motion Diversity}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Experimental Setup and Dataset}{57}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Experimental Protocol}{57}{subsection.5.1.1}\protected@file@percent }
+\newlabel{subsec:experimental_protocol}{{5.1.1}{57}{Experimental Protocol}{subsection.5.1.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Pose acquisition strategy}{57}{section*.43}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Acquisition overview}{58}{section*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Dataset Preparation}{58}{subsection.5.1.2}\protected@file@percent }
+\newlabel{subsec:dataset_preparation}{{5.1.2}{58}{Dataset Preparation}{subsection.5.1.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Observation quality criteria}{58}{section*.46}\protected@file@percent }
+\newlabel{fig:workspace_view}{{5.1a}{59}{Full experimental workspace, ChArUco board placed inside container}{figure.caption.45}{}}
+\newlabel{sub@fig:workspace_view}{{a}{59}{Full experimental workspace, ChArUco board placed inside container}{figure.caption.45}{}}
+\newlabel{fig:viewpoint_1}{{5.1b}{59}{Example of an acquired viewpoint with moderate viewing angle}{figure.caption.45}{}}
+\newlabel{sub@fig:viewpoint_1}{{b}{59}{Example of an acquired viewpoint with moderate viewing angle}{figure.caption.45}{}}
+\newlabel{fig:viewpoint_2}{{5.1c}{59}{Example of a high-angle or oblique observation of the target}{figure.caption.45}{}}
+\newlabel{sub@fig:viewpoint_2}{{c}{59}{Example of a high-angle or oblique observation of the target}{figure.caption.45}{}}
+\newlabel{fig:viewpoint_3}{{5.1d}{59}{Example of a a low-angle or oblique observation of the target}{figure.caption.45}{}}
+\newlabel{sub@fig:viewpoint_3}{{d}{59}{Example of a a low-angle or oblique observation of the target}{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Examples of acquired viewpoints used during dataset collection. The images highlight the variability in robot poses and camera perspectives relative to the fixed ChArUco calibration target.}}{59}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:dataset_viewpoints}{{5.1}{59}{Examples of acquired viewpoints used during dataset collection. The images highlight the variability in robot poses and camera perspectives relative to the fixed ChArUco calibration target}{figure.caption.45}{}}
+\@writefile{toc}{\contentsline {paragraph}{Examples of valid and invalid observations}{60}{section*.47}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Evaluation Metrics}{60}{subsection.5.1.3}\protected@file@percent }
+\newlabel{subsec:evaluation_metrics}{{5.1.3}{60}{Evaluation Metrics}{subsection.5.1.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Intrinsic calibration}{60}{section*.49}\protected@file@percent }
+\newlabel{eq:mean_reprojection_error}{{5.1}{60}{Intrinsic calibration}{equation.5.1}{}}
+\newlabel{fig:valid_observation}{{5.2a}{61}{Valid observation with detected ChArUco corners}{figure.caption.48}{}}
+\newlabel{sub@fig:valid_observation}{{a}{61}{Valid observation with detected ChArUco corners}{figure.caption.48}{}}
+\newlabel{fig:blurred_observation}{{5.2b}{61}{Image affected by blur}{figure.caption.48}{}}
+\newlabel{sub@fig:blurred_observation}{{b}{61}{Image affected by blur}{figure.caption.48}{}}
+\newlabel{fig:cropped_observation}{{5.2c}{61}{Insufficient target visibility}{figure.caption.48}{}}
+\newlabel{sub@fig:cropped_observation}{{c}{61}{Insufficient target visibility}{figure.caption.48}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Representative examples of observations acquired during the experimental campaign. Only observations satisfying the quality criteria described in this section were included in the final calibration datasets.}}{61}{figure.caption.48}\protected@file@percent }
+\newlabel{fig:dataset_examples}{{5.2}{61}{Representative examples of observations acquired during the experimental campaign. Only observations satisfying the quality criteria described in this section were included in the final calibration datasets}{figure.caption.48}{}}
+\@writefile{toc}{\contentsline {paragraph}{Hand-eye calibration}{62}{section*.50}\protected@file@percent }
+\newlabel{eq:centroid}{{5.3}{62}{Hand-eye calibration}{equation.5.3}{}}
+\newlabel{eq:consistency_metric}{{5.4}{62}{Hand-eye calibration}{equation.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Examples of reprojection results after calibration. Green markers correspond to detected chessboard corners, while red markers indicate the reprojected corner positions obtained from the estimated camera pose and calibration parameters. The first example show near-perfect alignment, whereas the second example highlights the effect of residual board tilt on reprojection accuracy.}}{63}{figure.caption.51}\protected@file@percent }
+\newlabel{fig:reprojection_examples}{{5.3}{63}{Examples of reprojection results after calibration. Green markers correspond to detected chessboard corners, while red markers indicate the reprojected corner positions obtained from the estimated camera pose and calibration parameters. The first example show near-perfect alignment, whereas the second example highlights the effect of residual board tilt on reprojection accuracy}{figure.caption.51}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Calibration Results}{64}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Intrinsic Calibration Results}{64}{subsection.5.2.1}\protected@file@percent }
+\newlabel{subsec:intrinsic_results}{{5.2.1}{64}{Intrinsic Calibration Results}{subsection.5.2.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of intrinsic calibration results obtained using the evaluated cameras.}}{64}{table.caption.52}\protected@file@percent }
+\newlabel{tab:intrinsic_comparison}{{5.1}{64}{Comparison of intrinsic calibration results obtained using the evaluated cameras}{table.caption.52}{}}
+\newlabel{fig:original_image}{{5.4a}{65}{Original image and undistorted image}{figure.caption.53}{}}
+\newlabel{sub@fig:original_image}{{a}{65}{Original image and undistorted image}{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of image correction obtained using the estimated intrinsic parameters and distortion coefficients.}}{65}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:intrinsic_undistortion}{{5.4}{65}{Example of image correction obtained using the estimated intrinsic parameters and distortion coefficients}{figure.caption.53}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Estimated intrinsic parameters of the Cognex camera.}}{65}{table.caption.54}\protected@file@percent }
+\newlabel{tab:intrinsic_parameters}{{5.2}{65}{Estimated intrinsic parameters of the Cognex camera}{table.caption.54}{}}
+\newlabel{eq:final_intrinsic_matrix}{{5.5}{65}{Intrinsic Calibration Results}{equation.5.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Hand-Eye Calibration Convergence}{66}{subsection.5.2.2}\protected@file@percent }
+\newlabel{subsec}{{5.2.2}{66}{Hand-Eye Calibration Convergence}{subsection.5.2.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Consistency Error Convergence}{66}{section*.55}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Evolution of the cross-image consistency error as a function of dataset size.}}{67}{figure.caption.56}\protected@file@percent }
+\newlabel{fig:consistency_convergence}{{5.5}{67}{Evolution of the cross-image consistency error as a function of dataset size}{figure.caption.56}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Summary of Convergence Results}{68}{section*.57}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Final Hand-Eye Calibration Results}{68}{section.5.3}\protected@file@percent }
+\newlabel{sec:final_handeye_results}{{5.3}{68}{Final Hand-Eye Calibration Results}{section.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of hand-eye calibration methods using complete datasets.}}{69}{table.caption.58}\protected@file@percent }
+\newlabel{tab:handeye_comparison}{{5.3}{69}{Comparison of hand-eye calibration methods using complete datasets}{table.caption.58}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Sources of Error and Experimental Limitations}{70}{section.5.4}\protected@file@percent }
+\newlabel{sec:handeye_limitations}{{5.4}{70}{Sources of Error and Experimental Limitations}{section.5.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Planar Target Limitations}{70}{subsection.5.4.1}\protected@file@percent }
+\newlabel{sec:planar_target_limitations}{{5.4.1}{70}{Planar Target Limitations}{subsection.5.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Motion Degeneracy}{71}{subsection.5.4.2}\protected@file@percent }
+\newlabel{sec:motion_degeneracy}{{5.4.2}{71}{Motion Degeneracy}{subsection.5.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Image Noise and Pixel Resolution}{71}{subsection.5.4.3}\protected@file@percent }
+\newlabel{sec:image_noise_resolution}{{5.4.3}{71}{Image Noise and Pixel Resolution}{subsection.5.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Board Orientation and Reconstruction Bias}{71}{subsection.5.4.4}\protected@file@percent }
+\newlabel{sec:board_orientation_bias}{{5.4.4}{71}{Board Orientation and Reconstruction Bias}{subsection.5.4.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Industrial Deployment and Validation}{72}{section.5.5}\protected@file@percent }
+\newlabel{sec:industrial_validation}{{5.5}{72}{Industrial Deployment and Validation}{section.5.5}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusions}{75}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:conclusions}{{6}{75}{Industrial Deployment and Validation}{chapter.6}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Galileo}{78}{appendix.Alph1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{sec:appendix_galileo}{{A}{78}{Industrial Deployment and Validation}{appendix.Alph1}{}}
+\@writefile{toc}{\contentsline {chapter}{Bibliografia}{79}{lstnumber.-1.1}\protected@file@percent }
+\abx@aux@read@bbl@mdfivesum{ECEDD5AE138A6BA3EF3EF01719813B9C}
+\abx@aux@defaultrefcontext{0}{siciliano2009robotics}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{bradski2008learning}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{shiu1989calibration}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{enebuse2021comparative}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{zhang2000flexible}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{daniilidis1999hand}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{craig2005introduction}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{murray1994mathematical}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{denavit1955kinematic}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{hartley2004multiple}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{kannala2006generic}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{lepetit2009epnp}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{strobl2006optimal}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{OpenCVHandEye}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{Tsai1989}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{ParkMartin1994}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{HoraudDornaika1995}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{Enebuse2022}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{Daniilidis1996}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{garrido2014aruco}{none/global//global/global/global}
+\abx@aux@defaultrefcontext{0}{umeyama1991least}{none/global//global/global/global}
+\gdef \@abspage@last{96}
