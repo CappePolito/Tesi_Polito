@@ -1,0 +1,810 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{siciliano2009robotics}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=38f7a70abf2d86e432d63826f560ab93}{%
+           family={Siciliano},
+           familyi={S\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8ee631ade831cd9df4fdd3ecba074704}{%
+           family={Sciavicco},
+           familyi={S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ff3e3865edda89166207ec2d8a4c22aa}{%
+           family={Villani},
+           familyi={V\bibinitperiod},
+           given={Luigi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=dcc89269b2eb1155024b2da9fd7c68eb}{%
+           family={Oriolo},
+           familyi={O\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{87b7a62a01263043a997b937dfe79845}
+      \strng{fullhash}{ee90168e098b65fb796c51b65c7348da}
+      \strng{fullhashraw}{ee90168e098b65fb796c51b65c7348da}
+      \strng{bibnamehash}{ee90168e098b65fb796c51b65c7348da}
+      \strng{authorbibnamehash}{ee90168e098b65fb796c51b65c7348da}
+      \strng{authornamehash}{87b7a62a01263043a997b937dfe79845}
+      \strng{authorfullhash}{ee90168e098b65fb796c51b65c7348da}
+      \strng{authorfullhashraw}{ee90168e098b65fb796c51b65c7348da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robotics: Modelling, Planning and Control}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1007/978-1-84628-642-1
+      \endverb
+    \endentry
+    \entry{bradski2008learning}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a780b2fbd99e4f7ce78d33324e39d4c2}{%
+           family={Bradski},
+           familyi={B\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=656736e2b93f260c9619384b02d7cdf4}{%
+           family={Kaehler},
+           familyi={K\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sebastopol, CA}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{28773b192aefb3555440671fe8536f6c}
+      \strng{fullhash}{28773b192aefb3555440671fe8536f6c}
+      \strng{fullhashraw}{28773b192aefb3555440671fe8536f6c}
+      \strng{bibnamehash}{28773b192aefb3555440671fe8536f6c}
+      \strng{authorbibnamehash}{28773b192aefb3555440671fe8536f6c}
+      \strng{authornamehash}{28773b192aefb3555440671fe8536f6c}
+      \strng{authorfullhash}{28773b192aefb3555440671fe8536f6c}
+      \strng{authorfullhashraw}{28773b192aefb3555440671fe8536f6c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-596-51613-0}
+      \field{title}{Learning {OpenCV}: Computer Vision with the {OpenCV} Library}
+      \field{year}{2008}
+    \endentry
+    \entry{shiu1989calibration}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b9e09e0f44ebc9001ed8b5349a739c6b}{%
+           family={Shiu},
+           familyi={S\bibinitperiod},
+           given={Yiu\bibnamedelima Cheung},
+           giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=52a800f5f70587827e26bd2fbe3316ea}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Shaheen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{fullhash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{fullhashraw}{7d6711159baed4769bc40c4d116997e2}
+      \strng{bibnamehash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{authorbibnamehash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{authornamehash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{authorfullhash}{7d6711159baed4769bc40c4d116997e2}
+      \strng{authorfullhashraw}{7d6711159baed4769bc40c4d116997e2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{1}
+      \field{title}{Calibration of Wrist-Mounted Robotic Sensors by Solving Homogeneous Transform Equations of the Form {AX=XB}}
+      \field{volume}{5}
+      \field{year}{1989}
+      \field{pages}{16\bibrangedash 29}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/70.88014
+      \endverb
+    \endentry
+    \entry{enebuse2021comparative}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c7741c47257116da8f4b97322c0dc410}{%
+           family={Enebuse},
+           familyi={E\bibinitperiod},
+           given={Ikenna},
+           giveni={I\bibinitperiod}}}%
+        {{hash=da33d6da591d2fb1a7c9aa14677c618f}{%
+           family={Foo},
+           familyi={F\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=683c1b0e55d1ffe85edba7aee2bcceeb}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Babul\bibnamedelimb Salam\bibnamedelimb Ksm\bibnamedelima Kader},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=99a6982615326cc86ba483d5c6706ff6}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Hafiz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=47c7c480085f5e875f191e86d552a2fd}{%
+           family={Supmak},
+           familyi={S\bibinitperiod},
+           given={Fhon},
+           giveni={F\bibinitperiod}}}%
+        {{hash=17d2247324d33c9be622f45cdc788e32}{%
+           family={Eyobu},
+           familyi={E\bibinitperiod},
+           given={Odongo\bibnamedelima Steven},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bd4d584bc2c7d57d12bd57efbd95934}
+      \strng{fullhash}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \strng{fullhashraw}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \strng{bibnamehash}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \strng{authorbibnamehash}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \strng{authornamehash}{8bd4d584bc2c7d57d12bd57efbd95934}
+      \strng{authorfullhash}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \strng{authorfullhashraw}{10ed75ff80cb6b84a18fc462b4e3ade6}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Comparative Review of Hand-Eye Calibration Techniques for Vision Guided Robots}
+      \field{volume}{9}
+      \field{year}{2021}
+      \field{pages}{113143\bibrangedash 113155}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2021.3104514
+      \endverb
+    \endentry
+    \entry{zhang2000flexible}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bdc0f902bd5651d491e1d2e1f9b442fc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhengyou},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{fullhash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{fullhashraw}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{bibnamehash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{authorbibnamehash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{authornamehash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{authorfullhash}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \strng{authorfullhashraw}{bdc0f902bd5651d491e1d2e1f9b442fc}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{11}
+      \field{title}{A Flexible New Technique for Camera Calibration}
+      \field{volume}{22}
+      \field{year}{2000}
+      \field{pages}{1330\bibrangedash 1334}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/34.888718
+      \endverb
+    \endentry
+    \entry{daniilidis1999hand}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3db9f3a35035ae28afafee42369068e2}{%
+           family={Daniilidis},
+           familyi={D\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{fullhash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{fullhashraw}{3db9f3a35035ae28afafee42369068e2}
+      \strng{bibnamehash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{authorbibnamehash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{authornamehash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{authorfullhash}{3db9f3a35035ae28afafee42369068e2}
+      \strng{authorfullhashraw}{3db9f3a35035ae28afafee42369068e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{3}
+      \field{title}{Hand-Eye Calibration Using Dual Quaternions}
+      \field{volume}{18}
+      \field{year}{1999}
+      \field{pages}{286\bibrangedash 298}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1177/02783649922066213
+      \endverb
+    \endentry
+    \entry{craig2005introduction}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=57c29b307f6e70b7216c8c696af16b58}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{fullhash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{fullhashraw}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{bibnamehash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{authorbibnamehash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{authornamehash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{authorfullhash}{57c29b307f6e70b7216c8c696af16b58}
+      \strng{authorfullhashraw}{57c29b307f6e70b7216c8c696af16b58}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{isbn}{978-0-201-54361-2}
+      \field{title}{Introduction to Robotics: Mechanics and Control}
+      \field{year}{2005}
+    \endentry
+    \entry{murray1994mathematical}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=22ec7dc3434ec7866e28d570204999f8}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6add39ad0b25b0f40aff64937f444b3a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zexiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d756b35e7b530d260e5a0807d1953354}{%
+           family={Sastry},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi Shankar},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{529bbbbb39cc19209adeb036ca10b6da}
+      \strng{fullhash}{adb744a4e5e7e0f8ac9032922b121530}
+      \strng{fullhashraw}{adb744a4e5e7e0f8ac9032922b121530}
+      \strng{bibnamehash}{adb744a4e5e7e0f8ac9032922b121530}
+      \strng{authorbibnamehash}{adb744a4e5e7e0f8ac9032922b121530}
+      \strng{authornamehash}{529bbbbb39cc19209adeb036ca10b6da}
+      \strng{authorfullhash}{adb744a4e5e7e0f8ac9032922b121530}
+      \strng{authorfullhashraw}{adb744a4e5e7e0f8ac9032922b121530}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-849-37981-9}
+      \field{title}{A Mathematical Introduction to Robotic Manipulation}
+      \field{year}{1994}
+    \endentry
+    \entry{denavit1955kinematic}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=74a6659250a7a54c28e851f9ade0e246}{%
+           family={Denavit},
+           familyi={D\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+        {{hash=adf32d2e9fe643433b068dccd367b81c}{%
+           family={Hartenberg},
+           familyi={H\bibinitperiod},
+           given={Richard\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{fullhash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{fullhashraw}{cc0d3106016993694d3a181d295fbe55}
+      \strng{bibnamehash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{authorbibnamehash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{authornamehash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{authorfullhash}{cc0d3106016993694d3a181d295fbe55}
+      \strng{authorfullhashraw}{cc0d3106016993694d3a181d295fbe55}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ASME Journal of Applied Mechanics}
+      \field{number}{2}
+      \field{title}{A Kinematic Notation for Lower-Pair Mechanisms Based on Matrices}
+      \field{volume}{22}
+      \field{year}{1955}
+      \field{pages}{215\bibrangedash 221}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1115/1.4011045
+      \endverb
+    \endentry
+    \entry{hartley2004multiple}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a0cea72f57464ff654a3f8362e58503d}{%
+           family={Hartley},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, UK}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{fullhash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{fullhashraw}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{bibnamehash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{authorbibnamehash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{authornamehash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{authorfullhash}{0e3dfde06144cdf8ac37a2746457797e}
+      \strng{authorfullhashraw}{0e3dfde06144cdf8ac37a2746457797e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{978-0-521-54051-3}
+      \field{title}{Multiple View Geometry in Computer Vision}
+      \field{year}{2004}
+    \endentry
+    \entry{kannala2006generic}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d20e3f80f9d860f9a91b6f18054e4b1}{%
+           family={Kannala},
+           familyi={K\bibinitperiod},
+           given={Juho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4333af1d25c1f03e74e9880c9922d5ef}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Sami\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{fullhash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{fullhashraw}{9051aaad4406bfb6c506f6a609735153}
+      \strng{bibnamehash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{authorbibnamehash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{authornamehash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{authorfullhash}{9051aaad4406bfb6c506f6a609735153}
+      \strng{authorfullhashraw}{9051aaad4406bfb6c506f6a609735153}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{8}
+      \field{title}{A Generic Camera Model and Calibration Method for Conventional, Wide-Angle, and Fish-Eye Lenses}
+      \field{volume}{28}
+      \field{year}{2006}
+      \field{pages}{1335\bibrangedash 1340}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2006.153
+      \endverb
+    \endentry
+    \entry{lepetit2009epnp}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7187819964d2d08695068a3f668e2ed1}{%
+           family={Lepetit},
+           familyi={L\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7ed44f3258cf3a4902d1da8f7b547651}{%
+           family={Moreno-Noguer},
+           familyi={M\bibinithyphendelim N\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c5304d4d3b616054451f1a8db2a3974f}{%
+           family={Fua},
+           familyi={F\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8efcc1e05e33e81c221c4873118c5e}
+      \strng{fullhash}{bb9455529fc7550eb3834423674e055e}
+      \strng{fullhashraw}{bb9455529fc7550eb3834423674e055e}
+      \strng{bibnamehash}{bb9455529fc7550eb3834423674e055e}
+      \strng{authorbibnamehash}{bb9455529fc7550eb3834423674e055e}
+      \strng{authornamehash}{ad8efcc1e05e33e81c221c4873118c5e}
+      \strng{authorfullhash}{bb9455529fc7550eb3834423674e055e}
+      \strng{authorfullhashraw}{bb9455529fc7550eb3834423674e055e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Vision}
+      \field{number}{2}
+      \field{title}{{EPnP}: An Accurate {O($n$)} Solution to the {P$n$P} Problem}
+      \field{volume}{81}
+      \field{year}{2009}
+      \field{pages}{155\bibrangedash 166}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s11263-008-0152-6
+      \endverb
+    \endentry
+    \entry{strobl2006optimal}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=f189df45b949049d7c174c3dd7371568}{%
+           family={Strobl},
+           familyi={S\bibinitperiod},
+           given={Klaus\bibnamedelima H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=56291341e377b6791590abe4d88fa987}{%
+           family={Hirzinger},
+           familyi={H\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{fullhash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{fullhashraw}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{bibnamehash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{authorbibnamehash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{authornamehash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{authorfullhash}{92d8bc6f798d1a010f197a64b213e7b5}
+      \strng{authorfullhashraw}{92d8bc6f798d1a010f197a64b213e7b5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {IEEE/RSJ} International Conference on Intelligent Robots and Systems ({IROS})}
+      \field{title}{Optimal Hand-Eye Calibration}
+      \field{year}{2006}
+      \field{pages}{4647\bibrangedash 4653}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2006.282250
+      \endverb
+    \endentry
+    \entry{OpenCVHandEye}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5bd4c87976f48e6a53919d53e14025e9}{%
+           family={{OpenCV}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{fullhash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{fullhashraw}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{bibnamehash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{authorbibnamehash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{authornamehash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{authorfullhash}{5bd4c87976f48e6a53919d53e14025e9}
+      \strng{authorfullhashraw}{5bd4c87976f48e6a53919d53e14025e9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html}}
+      \field{note}{Accessed: 2026-03-26}
+      \field{title}{Camera Calibration and 3D Reconstruction --- calibrateHandEye}
+    \endentry
+    \entry{Tsai1989}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8a9e9448c5a4461acf8aca4e1b22dc1a}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Roger\bibnamedelima Y.},
+           giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=49eddc2b34351d70353eb6cf56cd70fa}{%
+           family={Lenz},
+           familyi={L\bibinitperiod},
+           given={Reimar\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e269a0583008932ea3683f55deb6da12}
+      \strng{fullhash}{e269a0583008932ea3683f55deb6da12}
+      \strng{fullhashraw}{e269a0583008932ea3683f55deb6da12}
+      \strng{bibnamehash}{e269a0583008932ea3683f55deb6da12}
+      \strng{authorbibnamehash}{e269a0583008932ea3683f55deb6da12}
+      \strng{authornamehash}{e269a0583008932ea3683f55deb6da12}
+      \strng{authorfullhash}{e269a0583008932ea3683f55deb6da12}
+      \strng{authorfullhashraw}{e269a0583008932ea3683f55deb6da12}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{3}
+      \field{title}{A New Technique for Fully Autonomous and Efficient 3D Robotics Hand/Eye Calibration}
+      \field{volume}{5}
+      \field{year}{1989}
+      \field{pages}{345\bibrangedash 358}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/70.34770
+      \endverb
+    \endentry
+    \entry{ParkMartin1994}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=66f19f2d439b6eb60c024ab622b0389f}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Frank\bibnamedelima C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=336be469592fb74cab88a0cd07e5c479}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Bryan\bibnamedelima J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{fullhash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{fullhashraw}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{bibnamehash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{authorbibnamehash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{authornamehash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{authorfullhash}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \strng{authorfullhashraw}{808a9918f31e6f1e4f0bdfe2d1f22b3e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{5}
+      \field{title}{Robot Sensor Calibration: Solving AX = XB on the Euclidean Group}
+      \field{volume}{10}
+      \field{year}{1994}
+      \field{pages}{717\bibrangedash 721}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/70.326576
+      \endverb
+    \endentry
+    \entry{HoraudDornaika1995}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eefba46f15eb1fc31142defb790d8005}{%
+           family={Horaud},
+           familyi={H\bibinitperiod},
+           given={Radu},
+           giveni={R\bibinitperiod}}}%
+        {{hash=89dd8c2f1a7a1be630dfbe61b984ab1d}{%
+           family={Dornaika},
+           familyi={D\bibinitperiod},
+           given={Fadi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d799440e9e076095a58a249457d7cec}
+      \strng{fullhash}{0d799440e9e076095a58a249457d7cec}
+      \strng{fullhashraw}{0d799440e9e076095a58a249457d7cec}
+      \strng{bibnamehash}{0d799440e9e076095a58a249457d7cec}
+      \strng{authorbibnamehash}{0d799440e9e076095a58a249457d7cec}
+      \strng{authornamehash}{0d799440e9e076095a58a249457d7cec}
+      \strng{authorfullhash}{0d799440e9e076095a58a249457d7cec}
+      \strng{authorfullhashraw}{0d799440e9e076095a58a249457d7cec}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Robotics Research}
+      \field{number}{3}
+      \field{title}{Hand-Eye Calibration}
+      \field{volume}{14}
+      \field{year}{1995}
+      \field{pages}{195\bibrangedash 210}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1177/027836499501400301
+      \endverb
+    \endentry
+    \entry{Enebuse2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e79982f72e166b6fd43a07fc39a3c3ad}{%
+           family={Enebuse},
+           familyi={E\bibinitperiod},
+           given={Ikenna\bibnamedelima Stanley},
+           giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=91d9f0d304ec13f8000ae58683dccec8}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Babul\bibnamedelimb K.\bibnamedelimi S.\bibnamedelimi M.\bibnamedelimi Kader},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=da33d6da591d2fb1a7c9aa14677c618f}{%
+           family={Foo},
+           familyi={F\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bcb9e8df4e316b61e46ee183ea4db41f}{%
+           family={Matharu},
+           familyi={M\bibinitperiod},
+           given={Ranveer\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=99a6982615326cc86ba483d5c6706ff6}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Hafiz},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{701f93b925dc4456c8b796a16deb6c72}
+      \strng{fullhash}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \strng{fullhashraw}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \strng{bibnamehash}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \strng{authorbibnamehash}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \strng{authornamehash}{701f93b925dc4456c8b796a16deb6c72}
+      \strng{authorfullhash}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \strng{authorfullhashraw}{b95f037c9ee2befe70b6e2490b3cdd7b}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{10}
+      \field{title}{Accuracy Evaluation of Hand-Eye Calibration Techniques for Vision-Guided Robots}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{e0273261}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0273261
+      \endverb
+    \endentry
+    \entry{Daniilidis1996}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=26789faf98e6ba54553cd620a8da71b2}{%
+           family={Daniilidis},
+           familyi={D\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=27756fbb2b1f6458ee3602cf72fad839}{%
+           family={Bayro-Corrochano},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad02303bb615ac4be889a11b35295898}
+      \strng{fullhash}{ad02303bb615ac4be889a11b35295898}
+      \strng{fullhashraw}{ad02303bb615ac4be889a11b35295898}
+      \strng{bibnamehash}{ad02303bb615ac4be889a11b35295898}
+      \strng{authorbibnamehash}{ad02303bb615ac4be889a11b35295898}
+      \strng{authornamehash}{ad02303bb615ac4be889a11b35295898}
+      \strng{authorfullhash}{ad02303bb615ac4be889a11b35295898}
+      \strng{authorfullhashraw}{ad02303bb615ac4be889a11b35295898}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th International Conference on Pattern Recognition}
+      \field{title}{The Dual Quaternion Approach to Hand-Eye Calibration}
+      \field{year}{1996}
+      \field{pages}{318\bibrangedash 322}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICPR.1996.546041
+      \endverb
+    \endentry
+    \entry{garrido2014aruco}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f564498c51cf1f10087d9696669a2d64}{%
+           family={Garrido-Jurado},
+           familyi={G\bibinithyphendelim J\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b328616f1d120f57ec8a03604fe66d35}{%
+           family={Muñoz-Salinas},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=426b53a343bc039cd767642a20df74bf}{%
+           family={Madrid-Cuevas},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Francisco\bibnamedelima José},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6806b6125e084b9e8b5ac28270e4bc44}{%
+           family={Marín-Jiménez},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Manuel\bibnamedelima Jesús},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a89a96207ec699cbc72a7ca3b508ee8}
+      \strng{fullhash}{932cf2fa064f7bd26b02d51664e8010b}
+      \strng{fullhashraw}{932cf2fa064f7bd26b02d51664e8010b}
+      \strng{bibnamehash}{932cf2fa064f7bd26b02d51664e8010b}
+      \strng{authorbibnamehash}{932cf2fa064f7bd26b02d51664e8010b}
+      \strng{authornamehash}{5a89a96207ec699cbc72a7ca3b508ee8}
+      \strng{authorfullhash}{932cf2fa064f7bd26b02d51664e8010b}
+      \strng{authorfullhashraw}{932cf2fa064f7bd26b02d51664e8010b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pattern Recognition}
+      \field{number}{6}
+      \field{title}{Automatic Generation and Detection of Highly Reliable Fiducial Markers under Occlusion}
+      \field{volume}{47}
+      \field{year}{2014}
+      \field{pages}{2280\bibrangedash 2292}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.patcog.2014.01.005
+      \endverb
+    \endentry
+    \entry{umeyama1991least}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=571587bf3f1af86278bb944c7958e904}{%
+           family={Umeyama},
+           familyi={U\bibinitperiod},
+           given={Shinji},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{571587bf3f1af86278bb944c7958e904}
+      \strng{fullhash}{571587bf3f1af86278bb944c7958e904}
+      \strng{fullhashraw}{571587bf3f1af86278bb944c7958e904}
+      \strng{bibnamehash}{571587bf3f1af86278bb944c7958e904}
+      \strng{authorbibnamehash}{571587bf3f1af86278bb944c7958e904}
+      \strng{authornamehash}{571587bf3f1af86278bb944c7958e904}
+      \strng{authorfullhash}{571587bf3f1af86278bb944c7958e904}
+      \strng{authorfullhashraw}{571587bf3f1af86278bb944c7958e904}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{number}{4}
+      \field{title}{Least-Squares Estimation of Transformation Parameters Between Two Point Patterns}
+      \field{volume}{13}
+      \field{year}{1991}
+      \field{pages}{376\bibrangedash 380}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/34.88573
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{HoraudDornaika2023}
+  \missing{andreff1999online}
+  \missing{horaud1995hand}
+  \missing{park1994robot}
+  \missing{tsai1989new}
+\endrefsection
+\endinput
+

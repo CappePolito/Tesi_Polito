@@ -1,0 +1,113 @@
+\babel@toc {english}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{Elenco delle tabelle}{viii}{section*.1}%
+\contentsline {chapter}{Elenco delle figure}{ix}{section*.2}%
+\contentsline {chapter}{Glossario}{xiii}{section*.3}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Context}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problem Statement}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectives}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Contribution}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Main Achievements}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Significance of the Results}{6}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Mathematical and Theoretical Background}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Rigid Body Transformations}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Homogeneous Transformation Matrices}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Rotation Representations}{9}{subsection.2.1.2}%
+\contentsline {paragraph}{Rotation Matrix.}{9}{section*.6}%
+\contentsline {paragraph}{Euler Angles.}{9}{section*.7}%
+\contentsline {paragraph}{Axis--Angle and Rodrigues Vector.}{9}{section*.8}%
+\contentsline {paragraph}{Quaternions.}{10}{section*.9}%
+\contentsline {subsection}{\numberline {2.1.3}Lie Groups $SO(3)$ and $SE(3)$}{10}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Robot Kinematics}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Robot Structure and Joint Space}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Denavit--Hartenberg Convention}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Forward Kinematics}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Camera Model}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Pinhole Camera Model}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Intrinsic Parameters and Camera Matrix}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Fisheye Camera Model}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Lens Distortion}{15}{subsection.2.3.4}%
+\contentsline {paragraph}{Radial distortion.}{16}{section*.12}%
+\contentsline {paragraph}{Tangential distortion.}{16}{section*.13}%
+\contentsline {subsection}{\numberline {2.3.5}Full Projection Equation}{16}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Pose Estimation}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The Perspective-\textit {n}-Point Problem}{18}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Pose Estimation with OpenCV}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Planar and Non-Planar Configurations}{19}{subsection.2.4.3}%
+\contentsline {paragraph}{Planar configurations.}{19}{section*.15}%
+\contentsline {paragraph}{Non-planar configurations.}{19}{section*.16}%
+\contentsline {section}{\numberline {2.5}Hand-Eye Calibration Theory}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Problem Formulation}{20}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Eye-in-Hand Configuration}{21}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Eye-to-Hand Configuration}{21}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Solution Methods}{23}{subsection.2.5.4}%
+\contentsline {paragraph}{Two-stage closed-form methods.}{23}{section*.18}%
+\contentsline {paragraph}{Simultaneous rotation--translation methods.}{23}{section*.19}%
+\contentsline {paragraph}{Dual quaternion method.}{23}{section*.20}%
+\contentsline {subsection}{\numberline {2.5.5}Observability Conditions and Degenerate Motions}{23}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.6}Related Work}{24}{section.2.6}%
+\contentsline {chapter}{\numberline {3}System Architecture}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Hardware Setup}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Robot System}{28}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Camera System}{31}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Lens}{31}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Calibration Target}{33}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Coordinate Frames Definition}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Robot Base Frame $\{B\}$}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}End-Effector Frame $\{E\}$}{35}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Camera Frame $\{C\}$}{35}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Target Frame $\{T\}$}{36}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Transformation Relationships and Calibration Equation}{36}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Data Acquisition Pipeline}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Robot Pose Acquisition}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Image Acquisition}{39}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}ChArUco Feature Detection}{39}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Pose Estimation and Data Validation}{39}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Data Pairing and Input to Calibration}{40}{subsection.3.3.5}%
+\contentsline {chapter}{\numberline {4}Proposed calibration method}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Intrinsic Calibration}{42}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Calibration Target Definition}{42}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Corner Detection and Refinement}{44}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Calibration Procedure}{45}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Reprojection Error and Quality Assessment}{46}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Extrinsic Calibration}{47}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Pose Estimation}{48}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Construction of Motion Pairs}{48}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Hand-Eye Calibration Methods}{49}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Implementation Details}{50}{subsection.4.2.4}%
+\contentsline {paragraph}{Python prototype.}{50}{section*.39}%
+\contentsline {paragraph}{C\# production implementation.}{50}{section*.40}%
+\contentsline {paragraph}{Calibration validation interface.}{51}{section*.41}%
+\contentsline {section}{\numberline {4.3}Improvements and Refinements}{51}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Rigid Transformation Refinement: Kabsch--Umeyama Method}{54}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Pose Selection and Motion Diversity}{55}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experimental Setup and Dataset}{57}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Experimental Protocol}{57}{subsection.5.1.1}%
+\contentsline {paragraph}{Pose acquisition strategy}{57}{section*.43}%
+\contentsline {paragraph}{Acquisition overview}{58}{section*.44}%
+\contentsline {subsection}{\numberline {5.1.2}Dataset Preparation}{58}{subsection.5.1.2}%
+\contentsline {paragraph}{Observation quality criteria}{58}{section*.46}%
+\contentsline {paragraph}{Examples of valid and invalid observations}{60}{section*.47}%
+\contentsline {subsection}{\numberline {5.1.3}Evaluation Metrics}{60}{subsection.5.1.3}%
+\contentsline {paragraph}{Intrinsic calibration}{60}{section*.49}%
+\contentsline {paragraph}{Hand-eye calibration}{62}{section*.50}%
+\contentsline {section}{\numberline {5.2}Calibration Results}{64}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Intrinsic Calibration Results}{64}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Hand-Eye Calibration Convergence}{66}{subsection.5.2.2}%
+\contentsline {subsubsection}{Consistency Error Convergence}{66}{section*.55}%
+\contentsline {subsubsection}{Summary of Convergence Results}{68}{section*.57}%
+\contentsline {section}{\numberline {5.3}Final Hand-Eye Calibration Results}{68}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Sources of Error and Experimental Limitations}{70}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Planar Target Limitations}{70}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Motion Degeneracy}{71}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Image Noise and Pixel Resolution}{71}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Board Orientation and Reconstruction Bias}{71}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Industrial Deployment and Validation}{72}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{75}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Galileo}{78}{appendix.Alph1}%
+\contentsline {chapter}{Bibliografia}{79}{lstnumber.-1.1}%

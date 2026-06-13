@@ -1,0 +1,19 @@
+\chapter{Conclusions}
+\label{chap:conclusions}
+
+This thesis presented the development and experimental validation of a complete vision-based calibration pipeline for robotic applications, integrating camera intrinsic calibration, camera pose estimation, and hand-eye calibration within a unified framework.
+
+The work was motivated by the need for accurate spatial alignment between a robot manipulator and an external vision system, a fundamental requirement for a wide range of industrial automation tasks, including visual inspection, object localization, and vision-guided manipulation. To address this problem, a calibration workflow based on OpenCV and ChArUco board observations was implemented and evaluated using a FANUC LR Mate 200iD robotic platform equipped with a Cognex industrial camera.
+
+The first contribution of the work consisted in the estimation and validation of the camera intrinsic parameters. Despite the use of a lens characterized by significant optical distortion, the calibration procedure achieved low reprojection errors and produced stable intrinsic parameter estimates. This result demonstrates the effectiveness of the adopted calibration strategy even under challenging imaging conditions.
+
+A second major contribution was the implementation and comparison of multiple hand-eye calibration algorithms. The experimental evaluation considered the Tsai, Park, Horaud, Andreff, and Daniilidis methods, allowing a systematic assessment of their performance under identical acquisition conditions. The obtained results showed that all methods were capable of achieving sub-millimeter consistency errors, confirming the robustness of the overall calibration pipeline. At the same time, differences in convergence behaviour and sensitivity to dataset characteristics were observed, highlighting the importance of motion diversity and dataset quality in determining calibration accuracy.
+
+
+The experimental analysis also revealed several factors that influence calibration performance. These include the inherent limitations of planar calibration targets, motion degeneracy caused by insufficient viewpoint diversity, image acquisition noise, and systematic biases introduced by imperfect target placement. In particular, the observation of residual plane tilt in reconstructed point clouds demonstrated how small physical misalignments in the experimental setup can propagate through the calibration process and affect the final estimation accuracy.
+
+Overall, the results demonstrate that accurate hand-eye calibration can be achieved using low-cost calibration targets and widely available computer vision tools, provided that sufficient care is devoted to data acquisition, target positioning, and motion planning. The proposed methodology proved capable of producing reliable and repeatable calibration results, even in the presence of substantial lens distortion and real-world setup imperfections.
+
+Future developments may include the use of three-dimensional calibration targets to improve depth observability, the investigation of optimization-based calibration approaches, and the integration of uncertainty estimation techniques to quantify confidence in the estimated transformations. Additional studies could also explore automated acquisition strategies aimed at maximizing motion diversity and reducing the impact of degenerate configurations.
+
+In conclusion, this work confirms the feasibility and effectiveness of vision-based hand-eye calibration for industrial robotic systems and provides a practical framework for evaluating and comparing calibration methods in real-world environments.

@@ -1,0 +1,21 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'thesis.blg'
+[115] biber-MSWIN64:342> INFO - === 
+[153] Biber.pm:421> INFO - Reading 'thesis.bcf'
+[296] Biber.pm:1002> INFO - Found 26 citekeys in bib section 0
+[312] Biber.pm:4487> INFO - Processing section 0
+[324] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[388] bibtex.pm:1713> INFO - LaTeX decoding ...
+[421] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[579] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[579] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[580] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[580] Biber.pm:4313> INFO - No sort tailoring available for locale 'it-IT'
+[594] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[606] bbl.pm:779> INFO - Output to thesis.bbl
+[606] Biber.pm:132> WARN - I didn't find a database entry for 'tsai1989new' (section 0)
+[606] Biber.pm:132> WARN - I didn't find a database entry for 'horaud1995hand' (section 0)
+[606] Biber.pm:132> WARN - I didn't find a database entry for 'park1994robot' (section 0)
+[606] Biber.pm:132> WARN - I didn't find a database entry for 'HoraudDornaika2023' (section 0)
+[606] Biber.pm:132> WARN - I didn't find a database entry for 'andreff1999online' (section 0)
+[606] Biber.pm:134> INFO - WARNINGS: 5
