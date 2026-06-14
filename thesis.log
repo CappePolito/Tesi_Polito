@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  13 JUN 2026 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  14 JUN 2026 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1991,12 +1991,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {C:/Users/matti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/matt
 i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/logo/po
-lito_logo_2021_blu-2-2.jpg>]) (content/abstract.tex)
+lito_logo_2021_blu-2-2.jpg>]) (content/abstract.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63  \end{abstract}
+l.2 \begin{abstract}
                      [1
 
 
@@ -2005,14 +2005,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \paginavuota
-                  % to manually create a blank page [1
-
-] (content/summary.tex)
+l.50 \end{abstract}
+                    [1])
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63  \end{abstract}
+                     [1]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.72 \paginavuota
+                  % to manually create a blank page [1
+
+] (content/summary.tex)
 [2
 
 
@@ -2098,7 +2110,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
  (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<images/chapter1Images/hand-eye-calib-configs.png, id=659, 566.71725pt x 302.32
+<images/chapter1Images/hand-eye-calib-configs.png, id=681, 566.71725pt x 302.32
 95pt>
 File: images/chapter1Images/hand-eye-calib-configs.png Graphic file (type png)
 <use images/chapter1Images/hand-eye-calib-configs.png>
@@ -2122,7 +2134,7 @@ Capitolo 2.
 [7
 
 ]
-<images/chapter2Images/frame2frame.png, id=698, 528.47438pt x 342.5297pt>
+<images/chapter2Images/frame2frame.png, id=719, 528.47438pt x 342.5297pt>
 File: images/chapter2Images/frame2frame.png Graphic file (type png)
 <use images/chapter2Images/frame2frame.png>
 Package pdftex.def Info: images/chapter2Images/frame2frame.png  used on input l
@@ -2148,13 +2160,13 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
 )
 [10]
-<images/chapter2Images/FanucLRMate200id.png, id=745, 2569.6pt x 1718.42pt>
+<images/chapter2Images/FanucLRMate200id.png, id=766, 2569.6pt x 1718.42pt>
 File: images/chapter2Images/FanucLRMate200id.png Graphic file (type png)
 <use images/chapter2Images/FanucLRMate200id.png>
 Package pdftex.def Info: images/chapter2Images/FanucLRMate200id.png  used on in
 put line 299.
 (pdftex.def)             Requested size: 200.75996pt x 134.25124pt.
-<images/chapter2Images/denavitHartenberg.png, id=746, 578.16pt x 505.89pt>
+<images/chapter2Images/denavitHartenberg.png, id=767, 578.16pt x 505.89pt>
 File: images/chapter2Images/denavitHartenberg.png Graphic file (type png)
 <use images/chapter2Images/denavitHartenberg.png>
 Package pdftex.def Info: images/chapter2Images/denavitHartenberg.png  used on i
@@ -2162,7 +2174,7 @@ nput line 306.
 (pdftex.def)             Requested size: 200.75996pt x 175.65924pt.
  [11] [12 <./images/chapter2Images/FanucLRMate200id.png (PNG copy)> <./images/c
 hapter2Images/denavitHartenberg.png>]
-<images/chapter2Images/pinholeCameraModel.png, id=769, 539.01375pt x 243.91125p
+<images/chapter2Images/pinholeCameraModel.png, id=790, 539.01375pt x 243.91125p
 t>
 File: images/chapter2Images/pinholeCameraModel.png Graphic file (type png)
 <use images/chapter2Images/pinholeCameraModel.png>
@@ -2170,14 +2182,14 @@ Package pdftex.def Info: images/chapter2Images/pinholeCameraModel.png  used on
 input line 413.
 (pdftex.def)             Requested size: 313.69025pt x 141.95244pt.
  [13] [14 <./images/chapter2Images/pinholeCameraModel.png>] [15]
-<images/chapter2Images/005_comparison_markers.png, id=795, 8222.72pt x 3011.25p
+<images/chapter2Images/005_comparison_markers.png, id=817, 8222.72pt x 3011.25p
 t>
 File: images/chapter2Images/005_comparison_markers.png Graphic file (type png)
 <use images/chapter2Images/005_comparison_markers.png>
 Package pdftex.def Info: images/chapter2Images/005_comparison_markers.png  used
  on input line 520.
 (pdftex.def)             Requested size: 418.25368pt x 153.1444pt.
-<images/chapter2Images/005_comparison_markers_zoom.png, id=796, 426.393pt x 296
+<images/chapter2Images/005_comparison_markers_zoom.png, id=818, 426.393pt x 296
 .90926pt>
 File: images/chapter2Images/005_comparison_markers_zoom.png Graphic file (type 
 png)
@@ -2215,7 +2227,7 @@ LaTeX Warning: Citation 'park1994robot' on page 20 undefined on input line 770.
 
 
 [20]
-<images/chapter2Images/eye_to_in_hand.png, id=863, 709.90219pt x 380.92313pt>
+<images/chapter2Images/eye_to_in_hand.png, id=885, 709.90219pt x 380.92313pt>
 File: images/chapter2Images/eye_to_in_hand.png Graphic file (type png)
 <use images/chapter2Images/eye_to_in_hand.png>
 Package pdftex.def Info: images/chapter2Images/eye_to_in_hand.png  used on inpu
@@ -2278,19 +2290,19 @@ Overfull \hbox (96.09732pt too wide) in paragraph at lines 24--41
 [28
 
 ]
-<images/chapter4Images/FanucLRMate200id.png, id=955, 2569.6pt x 1718.42pt>
+<images/chapter4Images/FanucLRMate200id.png, id=976, 2569.6pt x 1718.42pt>
 File: images/chapter4Images/FanucLRMate200id.png Graphic file (type png)
 <use images/chapter4Images/FanucLRMate200id.png>
 Package pdftex.def Info: images/chapter4Images/FanucLRMate200id.png  used on in
 put line 64.
 (pdftex.def)             Requested size: 230.04079pt x 153.83827pt.
-<images/chapter4Images/fanuc_and_pendant.png, id=956, 903.375pt x 1204.5pt>
+<images/chapter4Images/fanuc_and_pendant.png, id=977, 903.375pt x 1204.5pt>
 File: images/chapter4Images/fanuc_and_pendant.png Graphic file (type png)
 <use images/chapter4Images/fanuc_and_pendant.png>
 Package pdftex.def Info: images/chapter4Images/fanuc_and_pendant.png  used on i
 nput line 75.
 (pdftex.def)             Requested size: 133.84424pt x 178.44333pt.
-<images/chapter4Images/full_fanuc_experimental_setup.png, id=957, 1204.5pt x 90
+<images/chapter4Images/full_fanuc_experimental_setup.png, id=978, 1204.5pt x 90
 3.375pt>
 File: images/chapter4Images/full_fanuc_experimental_setup.png Graphic file (typ
 e png)
@@ -2304,7 +2316,7 @@ Underfull \hbox (badness 2600) in paragraph at lines 85--85
 ri-men-
  []
 
-<images/chapter4Images/experimental_setup_from_above.png, id=958, 1204.5pt x 90
+<images/chapter4Images/experimental_setup_from_above.png, id=979, 1204.5pt x 90
 3.375pt>
 File: images/chapter4Images/experimental_setup_from_above.png Graphic file (typ
 e png)
@@ -2315,13 +2327,13 @@ g  used on input line 93.
 [29 <./images/chapter4Images/FanucLRMate200id.png (PNG copy)>] [30 <./images/ch
 apter4Images/fanuc_and_pendant.png> <./images/chapter4Images/full_fanuc_experim
 ental_setup.png> <./images/chapter4Images/experimental_setup_from_above.png>]
-<images/chapter4Images/Camera.png, id=973, 1204.5pt x 903.375pt>
+<images/chapter4Images/Camera.png, id=994, 1204.5pt x 903.375pt>
 File: images/chapter4Images/Camera.png Graphic file (type png)
 <use images/chapter4Images/Camera.png>
 Package pdftex.def Info: images/chapter4Images/Camera.png  used on input line 1
 48.
 (pdftex.def)             Requested size: 200.75996pt x 150.56673pt.
-<images/chapter4Images/Camera-end-effector-link.png, id=974, 903.375pt x 1204.5
+<images/chapter4Images/Camera-end-effector-link.png, id=995, 903.375pt x 1204.5
 pt>
 File: images/chapter4Images/Camera-end-effector-link.png Graphic file (type png
 )
@@ -2336,7 +2348,8 @@ Underfull \hbox (badness 7064) in paragraph at lines 155--155
 
 [31] [32 <./images/chapter4Images/Camera.png> <./images/chapter4Images/Camera-e
 nd-effector-link.png>]
-<images/chapter3Images/chessboardVertical.png, id=988, 1842.885pt x 1541.76pt>
+<images/chapter3Images/chessboardVertical.png, id=1010, 1842.885pt x 1541.76pt>
+
 File: images/chapter3Images/chessboardVertical.png Graphic file (type png)
 <use images/chapter3Images/chessboardVertical.png>
 Package pdftex.def Info: images/chapter3Images/chessboardVertical.png  used on 
@@ -2370,7 +2383,7 @@ LaTeX Warning: Float too large for page by 19.90855pt on input line 726.
 
 ) (content/chapters/chapter4.tex [40] [41]
 Capitolo 4.
-<images/chapter4Images/chessboardVertical.png, id=1076, 2457.18pt x 2055.68pt>
+<images/chapter4Images/chessboardVertical.png, id=1097, 2457.18pt x 2055.68pt>
 File: images/chapter4Images/chessboardVertical.png Graphic file (type png)
 <use images/chapter4Images/chessboardVertical.png>
 Package pdftex.def Info: images/chapter4Images/chessboardVertical.png  used on 
@@ -2383,13 +2396,13 @@ Underfull \vbox (badness 6691) has occurred while \output is active []
 
 ]
 [43 <./images/chapter4Images/chessboardVertical.png (PNG copy)>]
-<images/chapter4Images/pose_021.png, id=1088, 1284.8pt x 1027.84pt>
+<images/chapter4Images/pose_021.png, id=1109, 1284.8pt x 1027.84pt>
 File: images/chapter4Images/pose_021.png Graphic file (type png)
 <use images/chapter4Images/pose_021.png>
 Package pdftex.def Info: images/chapter4Images/pose_021.png  used on input line
  85.
 (pdftex.def)             Requested size: 259.31523pt x 207.44638pt.
-<images/chapter4Images/pose_021_particular.png, id=1089, 642.60075pt x 307.7497
+<images/chapter4Images/pose_021_particular.png, id=1110, 642.60075pt x 307.7497
 6pt>
 File: images/chapter4Images/pose_021_particular.png Graphic file (type png)
 <use images/chapter4Images/pose_021_particular.png>
@@ -2415,7 +2428,7 @@ Overfull \hbox (14.404pt too wide) in paragraph at lines 153--159
 LaTeX Warning: Reference `subsec:pose_est_pipeline' on page 46 undefined on inp
 ut line 228.
 
-<images/chapter4Images/005_comparison_markers.png, id=1113, 8222.72pt x 3011.25
+<images/chapter4Images/005_comparison_markers.png, id=1135, 8222.72pt x 3011.25
 pt>
 File: images/chapter4Images/005_comparison_markers.png Graphic file (type png)
 <use images/chapter4Images/005_comparison_markers.png>
@@ -2500,23 +2513,23 @@ Capitolo 5.
 [57
 
 ]
-<images/chapter5Images/workspace.png, id=1222, 963.6pt x 722.7pt>
+<images/chapter5Images/workspace.png, id=1244, 963.6pt x 722.7pt>
 File: images/chapter5Images/workspace.png Graphic file (type png)
 <use images/chapter5Images/workspace.png>
 Package pdftex.def Info: images/chapter5Images/workspace.png  used on input lin
 e 44.
 (pdftex.def)             Requested size: 200.75996pt x 150.56947pt.
-<images/chapter5Images/006.png, id=1223, 4111.36pt x 3011.25pt>
+<images/chapter5Images/006.png, id=1245, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/006.png Graphic file (type png)
 <use images/chapter5Images/006.png>
 Package pdftex.def Info: images/chapter5Images/006.png  used on input line 52.
 (pdftex.def)             Requested size: 200.75996pt x 147.03333pt.
-<images/chapter5Images/001.png, id=1224, 4111.36pt x 3011.25pt>
+<images/chapter5Images/001.png, id=1246, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/001.png Graphic file (type png)
 <use images/chapter5Images/001.png>
 Package pdftex.def Info: images/chapter5Images/001.png  used on input line 62.
 (pdftex.def)             Requested size: 200.75996pt x 147.03333pt.
-<images/chapter5Images/000.png, id=1225, 4111.36pt x 3011.25pt>
+<images/chapter5Images/000.png, id=1247, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/000.png Graphic file (type png)
 <use images/chapter5Images/000.png>
 Package pdftex.def Info: images/chapter5Images/000.png  used on input line 70.
@@ -2529,13 +2542,13 @@ File: images/chapter5Images/000.png Graphic file (type png)
 Package pdftex.def Info: images/chapter5Images/000.png  used on input line 133.
 
 (pdftex.def)             Requested size: 133.84424pt x 98.0069pt.
-<images/chapter5Images/motion_blur.png, id=1243, 1284.8pt x 1027.84pt>
+<images/chapter5Images/motion_blur.png, id=1264, 1284.8pt x 1027.84pt>
 File: images/chapter5Images/motion_blur.png Graphic file (type png)
 <use images/chapter5Images/motion_blur.png>
 Package pdftex.def Info: images/chapter5Images/motion_blur.png  used on input l
 ine 144.
 (pdftex.def)             Requested size: 133.84424pt x 107.07162pt.
-<images/chapter5Images/insufficient_corners.png, id=1244, 3854.4pt x 2168.1pt>
+<images/chapter5Images/insufficient_corners.png, id=1265, 3854.4pt x 2168.1pt>
 File: images/chapter5Images/insufficient_corners.png Graphic file (type png)
 <use images/chapter5Images/insufficient_corners.png>
 Package pdftex.def Info: images/chapter5Images/insufficient_corners.png  used o
@@ -2543,13 +2556,13 @@ n input line 155.
 (pdftex.def)             Requested size: 133.84424pt x 75.26268pt.
  [60] [61 <./images/chapter5Images/motion_blur.png> <./images/chapter5Images/in
 sufficient_corners.png (PNG copy)>] [62]
-<images/chapter5Images/reprojection.png, id=1267, 1212.53pt x 908.39375pt>
+<images/chapter5Images/reprojection.png, id=1289, 1212.53pt x 908.39375pt>
 File: images/chapter5Images/reprojection.png Graphic file (type png)
 <use images/chapter5Images/reprojection.png>
 Package pdftex.def Info: images/chapter5Images/reprojection.png  used on input 
 line 256.
 (pdftex.def)             Requested size: 133.84424pt x 100.27014pt.
-<images/chapter5Images/reprojection_bad.png, id=1268, 1107.13625pt x 773.89125p
+<images/chapter5Images/reprojection_bad.png, id=1290, 1107.13625pt x 773.89125p
 t>
 File: images/chapter5Images/reprojection_bad.png Graphic file (type png)
 <use images/chapter5Images/reprojection_bad.png>
@@ -2574,7 +2587,7 @@ Package pdftex.def Info: images/chapter2Images/005_comparison_markers.png  used
  on input line 316.
 (pdftex.def)             Requested size: 200.75996pt x 73.51666pt.
  [65]
-<images/chapter5Images/convergence.png, id=1290, 578.16pt x 324.4923pt>
+<images/chapter5Images/convergence.png, id=1311, 578.16pt x 324.4923pt>
 File: images/chapter5Images/convergence.png Graphic file (type png)
 <use images/chapter5Images/convergence.png>
 Package pdftex.def Info: images/chapter5Images/convergence.png  used on input l
@@ -2601,21 +2614,60 @@ n input line 432.
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
  [70]
-[71] [72] [73]) (content/chapters/chapter6.tex [74]
-Capitolo 6.
-[75
+[71] [72]
+<images/chapter5Images/supata_overview.png, id=1346, 963.6pt x 722.7pt>
+File: images/chapter5Images/supata_overview.png Graphic file (type png)
+<use images/chapter5Images/supata_overview.png>
+Package pdftex.def Info: images/chapter5Images/supata_overview.png  used on inp
+ut line 547.
+(pdftex.def)             Requested size: 334.60422pt x 250.9528pt.
+ [73 <./images/chapter5Images/supata_overview.png>]
+<images/chapter5Images/supata_detection.png, id=1352, 462.528pt x 346.896pt>
+File: images/chapter5Images/supata_detection.png Graphic file (type png)
+<use images/chapter5Images/supata_detection.png>
+Package pdftex.def Info: images/chapter5Images/supata_detection.png  used on in
+put line 564.
+(pdftex.def)             Requested size: 200.75996pt x 150.57036pt.
+<images/chapter5Images/supata_mask.png, id=1353, 462.528pt x 346.896pt>
+File: images/chapter5Images/supata_mask.png Graphic file (type png)
+<use images/chapter5Images/supata_mask.png>
+Package pdftex.def Info: images/chapter5Images/supata_mask.png  used on input l
+ine 575.
+(pdftex.def)             Requested size: 200.75996pt x 150.57036pt.
+<images/chapter5Images/supata_grasp_detail.png, id=1354, 370.38374pt x 124.2140
+7pt>
+File: images/chapter5Images/supata_grasp_detail.png Graphic file (type png)
+<use images/chapter5Images/supata_grasp_detail.png>
+Package pdftex.def Info: images/chapter5Images/supata_grasp_detail.png  used on
+ input line 587.
+(pdftex.def)             Requested size: 292.77629pt x 98.18867pt.
 
-]) [76] [77
+
+LaTeX Warning: Float too large for page by 29.14568pt on input line 594.
+
+<images/chapter5Images/supata_tray_layout.png, id=1355, 963.6pt x 722.7pt>
+File: images/chapter5Images/supata_tray_layout.png Graphic file (type png)
+<use images/chapter5Images/supata_tray_layout.png>
+Package pdftex.def Info: images/chapter5Images/supata_tray_layout.png  used on 
+input line 602.
+(pdftex.def)             Requested size: 334.60422pt x 250.9528pt.
+) (content/chapters/chapter6.tex [74] [75 <./images/chapter5Images/supata_detec
+tion.png> <./images/chapter5Images/supata_mask.png> <./images/chapter5Images/su
+pata_grasp_detail.png>] [76 <./images/chapter5Images/supata_tray_layout.png>]
+Capitolo 6.
+[77
+
+]) [78] [79
 
 ] (content/appendix.tex
 Appendice A.
-) [78
+) [80
 
 
-] [79
+] [81
 
 
-] [80] [81] (thesis.aux)
+] [82] [83] (thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2637,10 +2689,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57441 strings out of 467867
- 1178848 string characters out of 5418334
- 2218714 words of memory out of 5000000
- 84599 multiletter control sequences out of 15000+600000
+ 57490 strings out of 467867
+ 1180862 string characters out of 5418334
+ 2221263 words of memory out of 5000000
+ 84643 multiletter control sequences out of 15000+600000
  834128 words of font info for 449 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,12n,135p,2587b,2866s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2673,9 +2725,9 @@ fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.p
 fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.p
 fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on thesis.pdf (96 pages, 67321447 bytes).
+Output written on thesis.pdf (100 pages, 71661082 bytes).
 PDF statistics:
- 1662 PDF objects out of 1728 (max. 8388607)
- 336 named destinations out of 1000 (max. 500000)
- 108886 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1703 PDF objects out of 1728 (max. 8388607)
+ 341 named destinations out of 1000 (max. 500000)
+ 108911 words of extra memory for PDF output out of 128383 (max. 10000000)
 

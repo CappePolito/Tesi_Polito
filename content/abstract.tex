@@ -1,2 +1,50 @@
 % abstract, choose between abstract and summary
-file = abstract.tex
+\begin{abstract}
+	
+	Industrial robotic systems increasingly rely on vision sensors to perform
+	tasks requiring accurate spatial perception, such as object localization,
+	inspection, and vision-guided manipulation. In these applications, the
+	accuracy of the overall system strongly depends on the quality of the
+	calibration process used to establish the geometric relationship between the
+	camera and the robot reference frames.
+	
+	This thesis presents the design, implementation, and experimental validation
+	of a complete vision-based calibration framework for industrial robotic
+	applications. The proposed pipeline integrates camera intrinsic calibration,
+	camera pose estimation using ChArUco calibration boards, and hand-eye
+	calibration within a unified software architecture developed in Python using
+	the OpenCV library.
+	
+	The experimental evaluation was conducted using a FANUC LR Mate 200iD robot
+	equipped with a Cognex industrial camera operating in an eye-in-hand
+	configuration. Intrinsic calibration was performed using ChArUco targets and
+	validated through reprojection error analysis. Despite the presence of
+	significant lens distortion, the calibration procedure achieved stable camera
+	parameter estimation and sub-pixel reprojection accuracy. Multiple hand-eye
+	calibration algorithms, including the Tsai, Park, Horaud, Andreff, and
+	Daniilidis methods, were implemented and compared under identical acquisition
+	conditions. The results demonstrated sub-millimetre cross-image consistency
+	for all evaluated methods and highlighted the importance of dataset quality,
+	motion diversity, and acquisition strategy in determining calibration
+	accuracy.
+	
+	Additional investigations were performed to analyse convergence behaviour,
+	dataset size requirements, and the influence of practical sources of error,
+	including planar target limitations, motion degeneracy, image noise, and
+	systematic target misalignment. The study showed that calibration performance
+	is often more strongly influenced by the quality of the acquired data than by
+	the specific hand-eye calibration algorithm employed.
+	
+	Beyond the laboratory validation, the knowledge and methodologies developed
+	during this work were also applied to the implementation of a complete
+	eye-to-hand calibration module for an industrial vision-guided robotic system
+	deployed on an EPF SUPATA automatic feeding machine. The developed solution
+	was integrated into a production environment and successfully validated
+	through extended operation under real manufacturing conditions.
+	
+	The obtained results confirm the effectiveness of vision-based calibration
+	techniques for industrial robotic systems and provide practical guidelines
+	for the development, evaluation, and deployment of robust calibration
+	pipelines in real-world applications.
+	
+\end{abstract}

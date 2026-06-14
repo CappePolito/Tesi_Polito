@@ -14,6 +14,31 @@ The experimental analysis also revealed several factors that influence calibrati
 
 Overall, the results demonstrate that accurate hand-eye calibration can be achieved using low-cost calibration targets and widely available computer vision tools, provided that sufficient care is devoted to data acquisition, target positioning, and motion planning. The proposed methodology proved capable of producing reliable and repeatable calibration results, even in the presence of substantial lens distortion and real-world setup imperfections.
 
+Beyond the experimental validation performed on the laboratory setup, the
+knowledge and methodologies developed throughout this work were also applied
+to an industrial vision-guided robotic system deployed in production. In
+particular, a complete eye-to-hand calibration module was designed and
+implemented for a SUPATA automatic feeding machine manufactured by EPF. The
+developed solution was integrated into the existing software architecture and
+replaced a previous calibration procedure that exhibited limited robustness
+under operational conditions.
+
+Following deployment, the system was validated during normal production
+operation on a customer-delivered machine performing automated pick-and-place
+tasks. The machine successfully executed several tens of thousands of picking
+cycles over multiple days of operation without calibration-related failures.
+Although a formal metrological accuracy assessment was outside the scope of
+the industrial validation process, the successful deployment provides
+practical evidence of the reliability and applicability of the proposed
+calibration methodology in real-world manufacturing environments.
+
 Future developments may include the use of three-dimensional calibration targets to improve depth observability, the investigation of optimization-based calibration approaches, and the integration of uncertainty estimation techniques to quantify confidence in the estimated transformations. Additional studies could also explore automated acquisition strategies aimed at maximizing motion diversity and reducing the impact of degenerate configurations.
 
-In conclusion, this work confirms the feasibility and effectiveness of vision-based hand-eye calibration for industrial robotic systems and provides a practical framework for evaluating and comparing calibration methods in real-world environments.
+In conclusion, this work confirms the feasibility and effectiveness of
+vision-based calibration for industrial robotic systems and demonstrates how
+robust calibration performance can be achieved through a combination of
+accurate camera modelling, careful data acquisition, and appropriate hand-eye
+calibration techniques. The proposed methodology was validated both
+experimentally and through deployment in an industrial production
+environment, demonstrating its practical applicability to real-world
+automation systems.
