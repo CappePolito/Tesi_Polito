@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  14 JUN 2026 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.26)  16 JUN 2026 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1644,25 +1644,12 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             text-family-to-math = true, text-series-to-math = true"
 (siunitx)             as a replacement.
 
-) (common/new_commands.tex) (common/thesis_info.tex) (common/font_config.tex) (
-glossaries.tex)
-\glswrite=\write6
-\glo@main@file=\write7
-\openout7 = `thesis.glo'.
-
-Package glossaries Info: Writing glossary file thesis.glo on input line 38.
-\glo@abbreviations@file=\write8
-\openout8 = `thesis.glo-abr'.
-
-Package glossaries Info: Writing glossary file thesis.glo-abr on input line 38.
-
- (common/config.tex)
-(common/toptesi_config.tex)
+) (common/new_commands.tex) (common/thesis_info.tex) (common/font_config.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'italian'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 46
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 44
 .
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
@@ -1679,26 +1666,26 @@ LaTeX Warning: Label `eq:axxb' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Info: Redefining \it@ocap on input line 46.
-LaTeX Info: Redefining \it@ccap on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Info: Redefining \it@ocap on input line 44.
+LaTeX Info: Redefining \it@ccap on input line 44.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1725,23 +1712,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package TOPtesi Info: Margin width recalculation on input line 46.
+Package TOPtesi Info: Margin width recalculation on input line 44.
 Package TOPtesi Info: Before:
 (TOPtesi)             oddsidemargin  17.3571pt
-(TOPtesi)             evensidemargin 17.3571pt on input line 46.
+(TOPtesi)             evensidemargin 17.3571pt on input line 44.
 Package TOPtesi Info: After:
 (TOPtesi)             oddsidemargin  37.27402pt
-(TOPtesi)             evensidemargin -2.55981pt on input line 46.
+(TOPtesi)             evensidemargin -2.55981pt on input line 44.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/toptesi\topcoman.sty
 Package: topcoman 2025-01-15 v.6.4.07 Additional commands for the TOPtesi bundl
 e
 )
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 44.
 
 (thesis.out) (thesis.out)
-\@outlinefile=\write9
-\openout9 = `thesis.out'.
+\@outlinefile=\write6
+\openout6 = `thesis.out'.
 
 Package biblatex Info: Trying to load language 'italian'...
 Package biblatex Info: ... file 'italian.lbx' found.
@@ -1801,8 +1788,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
+Package biblatex Info: Reference section=0 on input line 44.
+Package biblatex Info: Reference segment=0 on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1851,13 +1838,13 @@ Package caption Info: End \AtBeginDocument code.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen380
 \MT@vwid@rightmargin=\dimen381
-LaTeX Info: Redefining \microtypecontext on input line 46.
-Package microtype Info: Applying patch `item' on input line 46.
-Package microtype Info: Applying patch `toc' on input line 46.
-Package microtype Info: Applying patch `eqnum' on input line 46.
-Package microtype Info: Applying patch `footnote' on input line 46.
-Package microtype Info: Applying patch `verbatim' on input line 46.
-LaTeX Info: Redefining \microtypesetup on input line 46.
+LaTeX Info: Redefining \microtypecontext on input line 44.
+Package microtype Info: Applying patch `item' on input line 44.
+Package microtype Info: Applying patch `toc' on input line 44.
+Package microtype Info: Applying patch `eqnum' on input line 44.
+Package microtype Info: Applying patch `footnote' on input line 44.
+Package microtype Info: Applying patch `verbatim' on input line 44.
+LaTeX Info: Redefining \microtypesetup on input line 44.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1873,7 +1860,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 46.
+alian.trsl' found. on input line 44.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
@@ -1881,8 +1868,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 46.
- (common/frontpage.tex
+or `english'. on input line 44.
+ (common/config.tex)
+(common/toptesi_config.tex) (common/frontpage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1915,7 +1903,7 @@ or `english'. on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/logo/polito_logo_2021_blu-2-2.jpg, id=354, 845.3181pt x 326.4195pt>
+<images/logo/polito_logo_2021_blu-2-2.jpg, id=341, 845.3181pt x 326.4195pt>
 File: images/logo/polito_logo_2021_blu-2-2.jpg Graphic file (type jpg)
 <use images/logo/polito_logo_2021_blu-2-2.jpg>
 Package pdftex.def Info: images/logo/polito_logo_2021_blu-2-2.jpg  used on inpu
@@ -1932,39 +1920,36 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/24'.
 (microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/14'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-6.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+7.
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+7.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-46.
+57.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-46.
+57.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <12> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 46.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+(Font)              <6> on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
 
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1973,7 +1958,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
 
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1985,8 +1970,6 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [1
 
 
-\openout6 = `thesis.ist'.
-
 
 
 {C:/Users/matti/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/matt
@@ -1996,56 +1979,53 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2 \begin{abstract}
-                     [1
+l.50 \end{abstract}
+                    [1
 
 
-]
+])
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 \end{abstract}
-                    [1])
+l.75 	\paginavuota
+                   % to manually create a blank page [1
+
+]
+(content/acknowledgements.tex
+Overfull \hbox (5.23453pt too wide) in paragraph at lines 10--11
+\T1/lmr/m/n/12 (-20) Giuseppe e Bec-ca-ria Iose, per il sostegno in-con-dizion-
+ato, la fidu-cia e l'incoraggiamento|
+ []
+
+)
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.63  \end{abstract}
-                     [1]
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 \paginavuota
-                  % to manually create a blank page [1
-
-] (content/summary.tex)
-[2
+ [2
 
 
-] (content/acknowledgements.tex) [3
+] [3
 
-
-] [4
-
-] (thesis.toc [5
+] (thesis.toc [4
 
 
 {C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
-{C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [6
+{C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [5
 {C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
 ])
-\tf@toc=\write10
-\openout10 = `thesis.toc'.
+\tf@toc=\write7
+\openout7 = `thesis.toc'.
 
- [7] (thesis.lot
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-2.
+ [6] (thesis.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+5.
 
 (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -2055,45 +2035,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.5215pt too wide) in paragraph at lines 12--12
- [][] [][][]\T1/lmr/m/n/12 (-20) Hand-eye ca-li-bra-tion me-thods avai-la-ble i
-n \T1/lmtt/m/n/12 cv::calibrateHandEye() |
- []
-
-)
-\tf@lot=\write11
-\openout11 = `thesis.lot'.
-
- [8
-
-
-] (thesis.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [8])
+\tf@lof=\write8
+\openout8 = `thesis.lof'.
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10])
-\tf@lof=\write12
-\openout12 = `thesis.lof'.
-
-
-[11] [12
-
-
-] (common/post_summary_config.tex) [13
-
-
-
-] (content/chapters/chapter1.tex
-Capitolo 1.
+[9] (content/chapters/chapter1.tex
+Chapter 1.
 
 LaTeX Warning: Citation 'tsai1989new' on page 1 undefined on input line 33.
 
 [1
+
 
 
 {C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}
@@ -2104,13 +2059,17 @@ LaTeX Warning: Citation 'horaud1995hand' on page 2 undefined on input line 58.
 
 LaTeX Warning: Citation 'park1994robot' on page 2 undefined on input line 58.
 
-[2]
+
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [2]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
 3.
- (C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+
+(C:\Users\matti\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<images/chapter1Images/hand-eye-calib-configs.png, id=681, 566.71725pt x 302.32
+<images/chapter1Images/hand-eye-calib-configs.png, id=623, 566.71725pt x 302.32
 95pt>
 File: images/chapter1Images/hand-eye-calib-configs.png Graphic file (type png)
 <use images/chapter1Images/hand-eye-calib-configs.png>
@@ -2129,12 +2088,18 @@ LaTeX Warning: Citation 'tsai1989new' on page 4 undefined on input line 137.
 
 LaTeX Warning: Citation 'park1994robot' on page 4 undefined on input line 138.
 
-[4] [5]) (content/chapters/chapter2.tex [6]
-Capitolo 2.
+[4] [5]
+Overfull \hbox (3.06552pt too wide) in paragraph at lines 239--242
+[]\T1/lmr/m/n/12 (-20) Multiple hand-eye cal-i-bra-tion al-go-rithms were com-p
+ared us-ing iden-ti-cal datasets|
+ []
+
+) (content/chapters/chapter2.tex [6]
+Chapter 2.
 [7
 
 ]
-<images/chapter2Images/frame2frame.png, id=719, 528.47438pt x 342.5297pt>
+<images/chapter2Images/frame2frame.png, id=661, 528.47438pt x 342.5297pt>
 File: images/chapter2Images/frame2frame.png Graphic file (type png)
 <use images/chapter2Images/frame2frame.png>
 Package pdftex.def Info: images/chapter2Images/frame2frame.png  used on input l
@@ -2160,13 +2125,13 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 
 )
 [10]
-<images/chapter2Images/FanucLRMate200id.png, id=766, 2569.6pt x 1718.42pt>
+<images/chapter2Images/FanucLRMate200id.png, id=708, 2569.6pt x 1718.42pt>
 File: images/chapter2Images/FanucLRMate200id.png Graphic file (type png)
 <use images/chapter2Images/FanucLRMate200id.png>
 Package pdftex.def Info: images/chapter2Images/FanucLRMate200id.png  used on in
 put line 299.
 (pdftex.def)             Requested size: 200.75996pt x 134.25124pt.
-<images/chapter2Images/denavitHartenberg.png, id=767, 578.16pt x 505.89pt>
+<images/chapter2Images/denavitHartenberg.png, id=709, 578.16pt x 505.89pt>
 File: images/chapter2Images/denavitHartenberg.png Graphic file (type png)
 <use images/chapter2Images/denavitHartenberg.png>
 Package pdftex.def Info: images/chapter2Images/denavitHartenberg.png  used on i
@@ -2174,7 +2139,7 @@ nput line 306.
 (pdftex.def)             Requested size: 200.75996pt x 175.65924pt.
  [11] [12 <./images/chapter2Images/FanucLRMate200id.png (PNG copy)> <./images/c
 hapter2Images/denavitHartenberg.png>]
-<images/chapter2Images/pinholeCameraModel.png, id=790, 539.01375pt x 243.91125p
+<images/chapter2Images/pinholeCameraModel.png, id=732, 539.01375pt x 243.91125p
 t>
 File: images/chapter2Images/pinholeCameraModel.png Graphic file (type png)
 <use images/chapter2Images/pinholeCameraModel.png>
@@ -2182,14 +2147,14 @@ Package pdftex.def Info: images/chapter2Images/pinholeCameraModel.png  used on
 input line 413.
 (pdftex.def)             Requested size: 313.69025pt x 141.95244pt.
  [13] [14 <./images/chapter2Images/pinholeCameraModel.png>] [15]
-<images/chapter2Images/005_comparison_markers.png, id=817, 8222.72pt x 3011.25p
+<images/chapter2Images/005_comparison_markers.png, id=759, 8222.72pt x 3011.25p
 t>
 File: images/chapter2Images/005_comparison_markers.png Graphic file (type png)
 <use images/chapter2Images/005_comparison_markers.png>
 Package pdftex.def Info: images/chapter2Images/005_comparison_markers.png  used
  on input line 520.
 (pdftex.def)             Requested size: 418.25368pt x 153.1444pt.
-<images/chapter2Images/005_comparison_markers_zoom.png, id=818, 426.393pt x 296
+<images/chapter2Images/005_comparison_markers_zoom.png, id=760, 426.393pt x 296
 .90926pt>
 File: images/chapter2Images/005_comparison_markers_zoom.png Graphic file (type 
 png)
@@ -2200,8 +2165,8 @@ Package pdftex.def Info: images/chapter2Images/005_comparison_markers_zoom.png
  [16] [17 <./images/chapter2Images/005_comparison_markers.png> <./images/chapte
 r2Images/005_comparison_markers_zoom.png>] [18]
 Overfull \hbox (27.33694pt too wide) in paragraph at lines 695--701
-\T1/lmr/m/n/12 (-20) gin. This can be ge-ne-ra-ted di-rec-tly from Open-C-V's \
-T1/lmtt/m/n/12 cv::drawChessboardCorners()|
+\T1/lmr/m/n/12 (-20) gin. This can be gen-er-ated di-rectly from OpenCV's \T1/l
+mtt/m/n/12 cv::drawChessboardCorners()|
  []
 
 
@@ -2227,7 +2192,7 @@ LaTeX Warning: Citation 'park1994robot' on page 20 undefined on input line 770.
 
 
 [20]
-<images/chapter2Images/eye_to_in_hand.png, id=885, 709.90219pt x 380.92313pt>
+<images/chapter2Images/eye_to_in_hand.png, id=827, 709.90219pt x 380.92313pt>
 File: images/chapter2Images/eye_to_in_hand.png Graphic file (type png)
 <use images/chapter2Images/eye_to_in_hand.png>
 Package pdftex.def Info: images/chapter2Images/eye_to_in_hand.png  used on inpu
@@ -2240,22 +2205,22 @@ LaTeX Warning: Citation 'horaud1995hand' on page 21 undefined on input line 842
 
 
 Overfull \hbox (8.53363pt too wide) in paragraph at lines 840--844
-\T1/lmr/m/n/12 (-20) and the sa-me $[] \OT1/lmr/m/n/12 (-20) = []$ \T1/lmr/m/n/
-12 (-20) struc-tu-re of equa-tion [] is pre-ser-ved [[],|
+\T1/lmr/m/n/12 (-20) and the same $[] \OT1/lmr/m/n/12 (-20) = []$ \T1/lmr/m/n/1
+2 (-20) struc-ture of equa-tion [] is pre-served [[],|
  []
 
+
+LaTeX Warning: Citation 'tsai1989new' on page 21 undefined on input line 857.
+
 [21] [22 <./images/chapter2Images/eye_to_in_hand.png>]
-
-LaTeX Warning: Citation 'tsai1989new' on page 23 undefined on input line 857.
-
 
 LaTeX Warning: Citation 'horaud1995hand' on page 23 undefined on input line 864
 .
 
 
 Overfull \hbox (58.37788pt too wide) in paragraph at lines 864--868
- []\T1/lmr/bx/n/12 (-20) Simultaneous rotation--translation me-thods.[] \T1/lmr
-/m/n/12 (-20) Ho-raud and Dor-nai-ka [[]]|
+ []\T1/lmr/bx/n/12 (-20) Simultaneous rotation--translation meth-ods.[] \T1/lmr
+/m/n/12 (-20) Ho-raud and Dor-naika [[]]|
  []
 
 
@@ -2281,7 +2246,7 @@ LaTeX Warning: Citation 'HoraudDornaika2023' on page 26 undefined on input line
  1045.
 
 [26]) (content/chapters/chapter3.tex [27]
-Capitolo 3.
+Chapter 3.
 
 Overfull \hbox (96.09732pt too wide) in paragraph at lines 24--41
  [][] |
@@ -2290,19 +2255,19 @@ Overfull \hbox (96.09732pt too wide) in paragraph at lines 24--41
 [28
 
 ]
-<images/chapter4Images/FanucLRMate200id.png, id=976, 2569.6pt x 1718.42pt>
+<images/chapter4Images/FanucLRMate200id.png, id=919, 2569.6pt x 1718.42pt>
 File: images/chapter4Images/FanucLRMate200id.png Graphic file (type png)
 <use images/chapter4Images/FanucLRMate200id.png>
 Package pdftex.def Info: images/chapter4Images/FanucLRMate200id.png  used on in
 put line 64.
 (pdftex.def)             Requested size: 230.04079pt x 153.83827pt.
-<images/chapter4Images/fanuc_and_pendant.png, id=977, 903.375pt x 1204.5pt>
+<images/chapter4Images/fanuc_and_pendant.png, id=920, 903.375pt x 1204.5pt>
 File: images/chapter4Images/fanuc_and_pendant.png Graphic file (type png)
 <use images/chapter4Images/fanuc_and_pendant.png>
 Package pdftex.def Info: images/chapter4Images/fanuc_and_pendant.png  used on i
 nput line 75.
 (pdftex.def)             Requested size: 133.84424pt x 178.44333pt.
-<images/chapter4Images/full_fanuc_experimental_setup.png, id=978, 1204.5pt x 90
+<images/chapter4Images/full_fanuc_experimental_setup.png, id=921, 1204.5pt x 90
 3.375pt>
 File: images/chapter4Images/full_fanuc_experimental_setup.png Graphic file (typ
 e png)
@@ -2312,11 +2277,11 @@ g  used on input line 84.
 (pdftex.def)             Requested size: 133.84424pt x 100.3778pt.
 
 Underfull \hbox (badness 2600) in paragraph at lines 85--85
-[]\T1/lmr/bx/n/10.95007 (+20) (b) |\T1/lmr/m/n/10.95007 (+20) Com-ple-te ex-pe-
-ri-men-
+[]\T1/lmr/bx/n/10.95007 (+20) (b) |\T1/lmr/m/n/10.95007 (+20) Com-plete ex-per-
+i-men-
  []
 
-<images/chapter4Images/experimental_setup_from_above.png, id=979, 1204.5pt x 90
+<images/chapter4Images/experimental_setup_from_above.png, id=922, 1204.5pt x 90
 3.375pt>
 File: images/chapter4Images/experimental_setup_from_above.png Graphic file (typ
 e png)
@@ -2327,13 +2292,13 @@ g  used on input line 93.
 [29 <./images/chapter4Images/FanucLRMate200id.png (PNG copy)>] [30 <./images/ch
 apter4Images/fanuc_and_pendant.png> <./images/chapter4Images/full_fanuc_experim
 ental_setup.png> <./images/chapter4Images/experimental_setup_from_above.png>]
-<images/chapter4Images/Camera.png, id=994, 1204.5pt x 903.375pt>
+<images/chapter4Images/Camera.png, id=937, 1204.5pt x 903.375pt>
 File: images/chapter4Images/Camera.png Graphic file (type png)
 <use images/chapter4Images/Camera.png>
 Package pdftex.def Info: images/chapter4Images/Camera.png  used on input line 1
 48.
 (pdftex.def)             Requested size: 200.75996pt x 150.56673pt.
-<images/chapter4Images/Camera-end-effector-link.png, id=995, 903.375pt x 1204.5
+<images/chapter4Images/Camera-end-effector-link.png, id=938, 903.375pt x 1204.5
 pt>
 File: images/chapter4Images/Camera-end-effector-link.png Graphic file (type png
 )
@@ -2348,42 +2313,32 @@ Underfull \hbox (badness 7064) in paragraph at lines 155--155
 
 [31] [32 <./images/chapter4Images/Camera.png> <./images/chapter4Images/Camera-e
 nd-effector-link.png>]
-<images/chapter3Images/chessboardVertical.png, id=1010, 1842.885pt x 1541.76pt>
-
+<images/chapter3Images/chessboardVertical.png, id=953, 1842.885pt x 1541.76pt>
 File: images/chapter3Images/chessboardVertical.png Graphic file (type png)
 <use images/chapter3Images/chessboardVertical.png>
 Package pdftex.def Info: images/chapter3Images/chessboardVertical.png  used on 
 input line 209.
 (pdftex.def)             Requested size: 188.21288pt x 157.45505pt.
-
-
-LaTeX Warning: Reference `sec:calibration_pipeline' on page 33 undefined on inp
-ut line 242.
-
-[33 <./images/chapter3Images/chessboardVertical.png>] [34]
-
-LaTeX Warning: Reference `sec:calibration_pipeline' on page 35 undefined on inp
-ut line 338.
-
-[35]
+ [33 <./images/chapter3Images/chessboardVertical.png>]
+[34] [35]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 48
-5.
+4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.00012> on input line 485.
+(Font)              <10.00012> on input line 484.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.00005> on input line 485.
+(Font)              <7.00005> on input line 484.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.00006> on input line 485.
+(Font)              <5.00006> on input line 484.
 [36] [37] [38] [39]
 
-LaTeX Warning: Float too large for page by 19.90855pt on input line 726.
+LaTeX Warning: Float too large for page by 19.90855pt on input line 725.
 
 ) (content/chapters/chapter4.tex [40] [41]
-Capitolo 4.
-<images/chapter4Images/chessboardVertical.png, id=1097, 2457.18pt x 2055.68pt>
+Chapter 4.
+<images/chapter4Images/chessboardVertical.png, id=1041, 2457.18pt x 2055.68pt>
 File: images/chapter4Images/chessboardVertical.png Graphic file (type png)
 <use images/chapter4Images/chessboardVertical.png>
 Package pdftex.def Info: images/chapter4Images/chessboardVertical.png  used on 
@@ -2396,13 +2351,13 @@ Underfull \vbox (badness 6691) has occurred while \output is active []
 
 ]
 [43 <./images/chapter4Images/chessboardVertical.png (PNG copy)>]
-<images/chapter4Images/pose_021.png, id=1109, 1284.8pt x 1027.84pt>
+<images/chapter4Images/pose_021.png, id=1053, 1284.8pt x 1027.84pt>
 File: images/chapter4Images/pose_021.png Graphic file (type png)
 <use images/chapter4Images/pose_021.png>
 Package pdftex.def Info: images/chapter4Images/pose_021.png  used on input line
  85.
 (pdftex.def)             Requested size: 259.31523pt x 207.44638pt.
-<images/chapter4Images/pose_021_particular.png, id=1110, 642.60075pt x 307.7497
+<images/chapter4Images/pose_021_particular.png, id=1054, 642.60075pt x 307.7497
 6pt>
 File: images/chapter4Images/pose_021_particular.png Graphic file (type png)
 <use images/chapter4Images/pose_021_particular.png>
@@ -2412,129 +2367,96 @@ Package pdftex.def Info: images/chapter4Images/pose_021_particular.png  used on
  [44 <./images/chapter4Images/pose_021.png (PNG copy)> <./images/chapter4Images
 /pose_021_particular.png>]
 Overfull \hbox (0.56647pt too wide) in paragraph at lines 123--125
-[]\T1/lmr/m/n/12 (-20) the ca-me-ra in-trin-sic ma-trix $\OT1/lmr/bx/n/12 (-20)
- K$ \T1/lmr/m/n/12 (-20) (equa-tion []), pa-ra-me-te-ri-sed by $\OT1/lmr/m/n/12
- (-20) (\OML/lmm/m/it/12 f[]; f[]; c[]; c[]\OT1/lmr/m/n/12 (-20) )$|
+[]\T1/lmr/m/n/12 (-20) the cam-era in-trin-sic ma-trix $\OT1/lmr/bx/n/12 (-20) 
+K$ \T1/lmr/m/n/12 (-20) (equa-tion []), pa-ram-e-terised by $\OT1/lmr/m/n/12 (-
+20) (\OML/lmm/m/it/12 f[]; f[]; c[]; c[]\OT1/lmr/m/n/12 (-20) )$|
  []
 
 
 Overfull \hbox (14.404pt too wide) in paragraph at lines 153--159
 \T1/lmtt/m/n/12 cv::aruco::calibrateCameraCharuco()\T1/lmr/m/n/12 (-20) , which
- in-ter-nal-ly calls \T1/lmtt/m/n/12 calibrateCamera()|
+ in-ter-nally calls \T1/lmtt/m/n/12 calibrateCamera()|
  []
 
 [45]
-
-LaTeX Warning: Reference `subsec:pose_est_pipeline' on page 46 undefined on inp
-ut line 228.
-
-<images/chapter4Images/005_comparison_markers.png, id=1135, 8222.72pt x 3011.25
+<images/chapter4Images/005_comparison_markers.png, id=1077, 8222.72pt x 3011.25
 pt>
 File: images/chapter4Images/005_comparison_markers.png Graphic file (type png)
 <use images/chapter4Images/005_comparison_markers.png>
 Package pdftex.def Info: images/chapter4Images/005_comparison_markers.png  used
- on input line 234.
+ on input line 232.
 (pdftex.def)             Requested size: 313.69025pt x 114.86978pt.
-[46 <./images/chapter4Images/005_comparison_markers.png>] [47]
+ [46 <./images/chapter4Images/005_comparison_markers.png>] [47] [48]
 
-LaTeX Warning: Reference `subsec:pose_est_pipeline' on page 48 undefined on inp
-ut line 345.
-
-
-LaTeX Warning: Reference `eq:reproj_error' on page 48 undefined on input line 3
-67.
-
-[48]
-
-LaTeX Warning: Citation 'tsai1989new' on page 49 undefined on input line 460.
+LaTeX Warning: Citation 'tsai1989new' on page 49 undefined on input line 458.
 
 
-LaTeX Warning: Citation 'park1994robot' on page 49 undefined on input line 464.
+LaTeX Warning: Citation 'park1994robot' on page 49 undefined on input line 462.
 
 
 
-LaTeX Warning: Citation 'horaud1995hand' on page 49 undefined on input line 468
+LaTeX Warning: Citation 'horaud1995hand' on page 49 undefined on input line 466
 .
 
 
 LaTeX Warning: Citation 'andreff1999online' on page 49 undefined on input line 
-472.
+470.
 
 
-Overfull \hbox (202.24847pt too wide) in paragraph at lines 452--481
+Overfull \hbox (202.24847pt too wide) in paragraph at lines 450--479
  [][] |
  []
 
-
-LaTeX Warning: Reference `sec:validation' on page 49 undefined on input line 49
-4.
-
-
-LaTeX Warning: Reference `sec:results' on page 49 undefined on input line 495.
-
 [49]
-
-LaTeX Warning: Reference `sec:results' on page 50 undefined on input line 540.
-
-
-Overfull \hbox (2.39574pt too wide) in paragraph at lines 536--542
-[]\T1/lmr/m/n/12 (-20) Preliminary ex-pe-ri-men-ts in-di-ca-ted that the Tsai--
-Lenz, Park--Martin, and Horaud--|
+Overfull \hbox (2.39574pt too wide) in paragraph at lines 534--538
+[]\T1/lmr/m/n/12 (-20) Preliminary ex-per-i-ments in-di-cated that the Tsai--Le
+nz, Park--Martin, and Horaud--|
  []
 
 [50]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 600.
+put line 597.
 
-Underfull \hbox (badness 1281) in paragraph at lines 603--607
-[]\T1/lmr/m/n/12 (+20) Robot po-ses $\OMS/lmsy/m/n/12 f[][]\OT1/lmr/bx/n/12 (+2
-0) T[]\OMS/lmsy/m/n/12 g[]$\T1/lmr/m/n/12 (+20) , ca-li-bra-tion ima-ges $\OMS/
-lmsy/m/n/12 fI[]g[]$\T1/lmr/m/n/12 (+20) , in-trin-sics
+Underfull \hbox (badness 1281) in paragraph at lines 600--604
+[]\T1/lmr/m/n/12 (+20) Robot poses $\OMS/lmsy/m/n/12 f[][]\OT1/lmr/bx/n/12 (+20
+) T[]\OMS/lmsy/m/n/12 g[]$\T1/lmr/m/n/12 (+20) , cal-i-bra-tion im-ages $\OMS/l
+msy/m/n/12 fI[]g[]$\T1/lmr/m/n/12 (+20) , in-trin-sics
  []
 
-
-LaTeX Warning: Reference `sec:validation' on page 51 undefined on input line 64
-0.
-
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95007> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 682.
-[51] [52] [53]
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 679.
+[51] [52] [53] [54]
 
-LaTeX Warning: Reference `subsec:data_filtering' on page 54 undefined on input 
-line 765.
-
-[54]
-
-LaTeX Warning: Citation 'park1994robot' on page 55 undefined on input line 853.
+LaTeX Warning: Citation 'park1994robot' on page 55 undefined on input line 850.
 
 
-[55]) (content/chapters/chapter5.tex [56]
-Capitolo 5.
-[57
+) (content/chapters/chapter5.tex [55]
+Chapter 5.
+[56
 
 ]
-<images/chapter5Images/workspace.png, id=1244, 963.6pt x 722.7pt>
+<images/chapter5Images/workspace.png, id=1185, 963.6pt x 722.7pt>
 File: images/chapter5Images/workspace.png Graphic file (type png)
 <use images/chapter5Images/workspace.png>
 Package pdftex.def Info: images/chapter5Images/workspace.png  used on input lin
 e 44.
 (pdftex.def)             Requested size: 200.75996pt x 150.56947pt.
-<images/chapter5Images/006.png, id=1245, 4111.36pt x 3011.25pt>
+<images/chapter5Images/006.png, id=1186, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/006.png Graphic file (type png)
 <use images/chapter5Images/006.png>
 Package pdftex.def Info: images/chapter5Images/006.png  used on input line 52.
 (pdftex.def)             Requested size: 200.75996pt x 147.03333pt.
-<images/chapter5Images/001.png, id=1246, 4111.36pt x 3011.25pt>
+<images/chapter5Images/001.png, id=1187, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/001.png Graphic file (type png)
 <use images/chapter5Images/001.png>
 Package pdftex.def Info: images/chapter5Images/001.png  used on input line 62.
 (pdftex.def)             Requested size: 200.75996pt x 147.03333pt.
-<images/chapter5Images/000.png, id=1247, 4111.36pt x 3011.25pt>
+<images/chapter5Images/000.png, id=1188, 4111.36pt x 3011.25pt>
 File: images/chapter5Images/000.png Graphic file (type png)
 <use images/chapter5Images/000.png>
 Package pdftex.def Info: images/chapter5Images/000.png  used on input line 70.
 (pdftex.def)             Requested size: 200.75996pt x 147.03333pt.
- [58] [59 <./images/chapter5Images/workspace.png> <./images/chapter5Images/006.
+ [57] [58 <./images/chapter5Images/workspace.png> <./images/chapter5Images/006.
 png (PNG copy)> <./images/chapter5Images/001.png (PNG copy)> <./images/chapter5
 Images/000.png (PNG copy)>]
 File: images/chapter5Images/000.png Graphic file (type png)
@@ -2542,27 +2464,27 @@ File: images/chapter5Images/000.png Graphic file (type png)
 Package pdftex.def Info: images/chapter5Images/000.png  used on input line 133.
 
 (pdftex.def)             Requested size: 133.84424pt x 98.0069pt.
-<images/chapter5Images/motion_blur.png, id=1264, 1284.8pt x 1027.84pt>
+<images/chapter5Images/motion_blur.png, id=1205, 1284.8pt x 1027.84pt>
 File: images/chapter5Images/motion_blur.png Graphic file (type png)
 <use images/chapter5Images/motion_blur.png>
 Package pdftex.def Info: images/chapter5Images/motion_blur.png  used on input l
 ine 144.
 (pdftex.def)             Requested size: 133.84424pt x 107.07162pt.
-<images/chapter5Images/insufficient_corners.png, id=1265, 3854.4pt x 2168.1pt>
+<images/chapter5Images/insufficient_corners.png, id=1206, 3854.4pt x 2168.1pt>
 File: images/chapter5Images/insufficient_corners.png Graphic file (type png)
 <use images/chapter5Images/insufficient_corners.png>
 Package pdftex.def Info: images/chapter5Images/insufficient_corners.png  used o
 n input line 155.
 (pdftex.def)             Requested size: 133.84424pt x 75.26268pt.
- [60] [61 <./images/chapter5Images/motion_blur.png> <./images/chapter5Images/in
-sufficient_corners.png (PNG copy)>] [62]
-<images/chapter5Images/reprojection.png, id=1289, 1212.53pt x 908.39375pt>
+ [59] [60 <./images/chapter5Images/motion_blur.png> <./images/chapter5Images/in
+sufficient_corners.png (PNG copy)>] [61]
+<images/chapter5Images/reprojection.png, id=1229, 1212.53pt x 908.39375pt>
 File: images/chapter5Images/reprojection.png Graphic file (type png)
 <use images/chapter5Images/reprojection.png>
 Package pdftex.def Info: images/chapter5Images/reprojection.png  used on input 
 line 256.
 (pdftex.def)             Requested size: 133.84424pt x 100.27014pt.
-<images/chapter5Images/reprojection_bad.png, id=1290, 1107.13625pt x 773.89125p
+<images/chapter5Images/reprojection_bad.png, id=1230, 1107.13625pt x 773.89125p
 t>
 File: images/chapter5Images/reprojection_bad.png Graphic file (type png)
 <use images/chapter5Images/reprojection_bad.png>
@@ -2571,23 +2493,23 @@ put line 262.
 (pdftex.def)             Requested size: 133.84424pt x 93.54784pt.
 
 Underfull \hbox (badness 2334) in paragraph at lines 263--263
-\T1/lmr/m/n/10.95007 (+20) du-cing ap-pro-xi-ma-te-ly 1.5
+\T1/lmr/m/n/10.95007 (+20) duc-ing ap-prox-i-mately 1.5
  []
 
-[63 <./images/chapter5Images/reprojection.png> <./images/chapter5Images/reproje
+[62 <./images/chapter5Images/reprojection.png> <./images/chapter5Images/reproje
 ction_bad.png>]
 Overfull \hbox (9.07816pt too wide) in paragraph at lines 296--304
  [][] |
  []
 
-[64]
+[63]
 File: images/chapter2Images/005_comparison_markers.png Graphic file (type png)
 <use images/chapter2Images/005_comparison_markers.png>
 Package pdftex.def Info: images/chapter2Images/005_comparison_markers.png  used
  on input line 316.
 (pdftex.def)             Requested size: 200.75996pt x 73.51666pt.
- [65]
-<images/chapter5Images/convergence.png, id=1311, 578.16pt x 324.4923pt>
+ [64]
+<images/chapter5Images/convergence.png, id=1254, 578.16pt x 324.4923pt>
 File: images/chapter5Images/convergence.png Graphic file (type png)
 <use images/chapter5Images/convergence.png>
 Package pdftex.def Info: images/chapter5Images/convergence.png  used on input l
@@ -2599,42 +2521,34 @@ Overfull \hbox (14.63321pt too wide) in paragraph at lines 391--392
  []
 
 
-LaTeX Warning: Reference `fig' on page 66 undefined on input line 397.
+Underfull \vbox (badness 1635) has occurred while \output is active []
 
-[66] [67 <./images/chapter5Images/convergence.png>]
-
-LaTeX Warning: Reference `sec:consistency_metric' on page 68 undefined on input
- line 430.
-
-
-LaTeX Warning: Reference `fig:handeye_method_comparison' on page 68 undefined o
-n input line 432.
-
-[68] [69]
+ [65]
+[66 <./images/chapter5Images/convergence.png>] [67] [68]
 Underfull \vbox (badness 1776) has occurred while \output is active []
 
- [70]
-[71] [72]
-<images/chapter5Images/supata_overview.png, id=1346, 963.6pt x 722.7pt>
+ [69]
+[70] [71]
+<images/chapter5Images/supata_overview.png, id=1293, 963.6pt x 722.7pt>
 File: images/chapter5Images/supata_overview.png Graphic file (type png)
 <use images/chapter5Images/supata_overview.png>
 Package pdftex.def Info: images/chapter5Images/supata_overview.png  used on inp
 ut line 547.
 (pdftex.def)             Requested size: 334.60422pt x 250.9528pt.
- [73 <./images/chapter5Images/supata_overview.png>]
-<images/chapter5Images/supata_detection.png, id=1352, 462.528pt x 346.896pt>
+ [72 <./images/chapter5Images/supata_overview.png>]
+<images/chapter5Images/supata_detection.png, id=1299, 462.528pt x 346.896pt>
 File: images/chapter5Images/supata_detection.png Graphic file (type png)
 <use images/chapter5Images/supata_detection.png>
 Package pdftex.def Info: images/chapter5Images/supata_detection.png  used on in
 put line 564.
 (pdftex.def)             Requested size: 200.75996pt x 150.57036pt.
-<images/chapter5Images/supata_mask.png, id=1353, 462.528pt x 346.896pt>
+<images/chapter5Images/supata_mask.png, id=1300, 462.528pt x 346.896pt>
 File: images/chapter5Images/supata_mask.png Graphic file (type png)
 <use images/chapter5Images/supata_mask.png>
 Package pdftex.def Info: images/chapter5Images/supata_mask.png  used on input l
 ine 575.
 (pdftex.def)             Requested size: 200.75996pt x 150.57036pt.
-<images/chapter5Images/supata_grasp_detail.png, id=1354, 370.38374pt x 124.2140
+<images/chapter5Images/supata_grasp_detail.png, id=1301, 370.38374pt x 124.2140
 7pt>
 File: images/chapter5Images/supata_grasp_detail.png Graphic file (type png)
 <use images/chapter5Images/supata_grasp_detail.png>
@@ -2645,29 +2559,32 @@ Package pdftex.def Info: images/chapter5Images/supata_grasp_detail.png  used on
 
 LaTeX Warning: Float too large for page by 29.14568pt on input line 594.
 
-<images/chapter5Images/supata_tray_layout.png, id=1355, 963.6pt x 722.7pt>
+<images/chapter5Images/supata_tray_layout.png, id=1302, 963.6pt x 722.7pt>
 File: images/chapter5Images/supata_tray_layout.png Graphic file (type png)
 <use images/chapter5Images/supata_tray_layout.png>
 Package pdftex.def Info: images/chapter5Images/supata_tray_layout.png  used on 
 input line 602.
 (pdftex.def)             Requested size: 334.60422pt x 250.9528pt.
-) (content/chapters/chapter6.tex [74] [75 <./images/chapter5Images/supata_detec
+) (content/chapters/chapter6.tex [73] [74 <./images/chapter5Images/supata_detec
 tion.png> <./images/chapter5Images/supata_mask.png> <./images/chapter5Images/su
-pata_grasp_detail.png>] [76 <./images/chapter5Images/supata_tray_layout.png>]
-Capitolo 6.
-[77
+pata_grasp_detail.png>] [75 <./images/chapter5Images/supata_tray_layout.png>]
+Chapter 6.
+[76
 
-]) [78] [79
+]) [77] [78
 
-] (content/appendix.tex
-Appendice A.
-) [80
+] [79
+
+]
+Overfull \hbox (4.77144pt too wide) in paragraph at lines 133--133
+[]\T1/lmr/m/n/12 (-20) Bruno Si-cil-iano, Lorenzo Sci-av-icco, Luigi Vil-lani, 
+and Giuseppe Ori-olo. \T1/lmr/m/it/12 (-20) Robotics:|
+ []
+
+[80
 
 
-] [81
-
-
-] [82] [83] (thesis.aux)
+] [81] [82] (thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2677,25 +2594,22 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C76041E67B62D56322D120B836EE3501;15711.
+(rerunfilecheck)             Checksum: 0FFA0E479DC1082679FF8BE567EAC65E;15364.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57490 strings out of 467867
- 1180862 string characters out of 5418334
- 2221263 words of memory out of 5000000
- 84643 multiletter control sequences out of 15000+600000
- 834128 words of font info for 449 fonts, out of 8000000 for 9000
+ 57020 strings out of 467867
+ 1175593 string characters out of 5418334
+ 2220437 words of memory out of 5000000
+ 84209 multiletter control sequences out of 15000+600000
+ 827718 words of font info for 442 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,12n,135p,2587b,2866s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 138i,12n,135p,2587b,2967s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/eul
 er/eufm10.pfb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmbx10.pfb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -2725,9 +2639,9 @@ fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.p
 fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.p
 fb><C:/Users/matti/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on thesis.pdf (100 pages, 71661082 bytes).
+Output written on thesis.pdf (93 pages, 71649829 bytes).
 PDF statistics:
- 1703 PDF objects out of 1728 (max. 8388607)
- 341 named destinations out of 1000 (max. 500000)
- 108911 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 1647 PDF objects out of 1728 (max. 8388607)
+ 330 named destinations out of 1000 (max. 500000)
+ 104791 words of extra memory for PDF output out of 106986 (max. 10000000)
 

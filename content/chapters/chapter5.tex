@@ -394,7 +394,7 @@ The first analysis evaluates the evolution of the consistency metric as a functi
 	
 \end{figure}
 
-Figure~\ref{fig} shows that the consistency error decreases as additional observations are incorporated into the calibration process. For small datasets, the estimated hand-eye transformation exhibits greater variability, resulting in larger spatial discrepancies between independent reconstructions of the same ChArUco corners.
+Figure~\ref{fig:consistency_convergence} shows that the consistency error decreases as additional observations are incorporated into the calibration process. For small datasets, the estimated hand-eye transformation exhibits greater variability, resulting in larger spatial discrepancies between independent reconstructions of the same ChArUco corners.
 
 As the number of observations increases, the consistency error progressively decreases, indicating improved agreement among the reconstructed corner positions. This behaviour is expected, since larger datasets provide a richer set of geometric constraints and reduce the influence of individual measurement errors.
 
@@ -427,9 +427,9 @@ Overall, the intrinsic calibration demonstrates that even under severe lens dist
 
 After establishing the convergence behaviour of the calibration procedure, a final comparison of the available hand-eye calibration algorithms was performed using the complete dataset. The objective of this analysis was to evaluate the relative accuracy and stability of the different methods under identical experimental conditions.
 
-Five calibration algorithms available in OpenCV were considered: Tsai, Park, Horaud, Andreff, and Daniilidis. For each method, the hand-eye transformation was estimated using the full set of robot poses and corresponding camera observations. The resulting calibration was then evaluated using the consistency metric introduced in Section~\ref{sec:consistency_metric}.
+Five calibration algorithms available in OpenCV were considered: Tsai, Park, Horaud, Andreff, and Daniilidis. For each method, the hand-eye transformation was estimated using the full set of robot poses and corresponding camera observations. The resulting calibration was then evaluated using the consistency metric introduced in Section~\ref{subsec:evaluation_metrics}.
 
-Figure~\ref{fig:handeye_method_comparison} shows the evolution of the consistency error as the number of calibration images increases. Each curve corresponds to a different hand-eye calibration algorithm. While all methods exhibit a decreasing error trend as additional observations are included, noticeable differences in convergence behaviour can be observed.
+Figure~\ref{fig:consistency_convergence} shows the evolution of the consistency error as the number of calibration images increases. Each curve corresponds to a different hand-eye calibration algorithm. While all methods exhibit a decreasing error trend as additional observations are included, noticeable differences in convergence behaviour can be observed.
 
 The Horaud and Park methods consistently achieved low consistency errors across most dataset sizes, indicating a high degree of robustness and stability. The Tsai algorithm produced nearly identical results, converging to a comparable final error despite its simpler formulation. In contrast, the Andreff method showed greater variability during the convergence process and generally required a larger number of observations to stabilize. The Daniilidis method exhibited the highest consistency errors throughout the experiment and converged to the least accurate solution among the evaluated algorithms.
 

@@ -224,9 +224,7 @@ intrinsic estimate.
 
 The estimated intrinsic parameters $(\mathbf{K}^*, \mathbf{d}^*)$ obtained
 from this procedure are stored and used in all subsequent stages: ChArUco
-corner interpolation (Section~\ref{subsec:feature_detection}), pose estimation
-(Section~\ref{subsec:pose_est_pipeline}), and hand-eye calibration
-(Section~\ref{sec:hec_theory}).
+corner interpolation, pose estimation, and hand-eye calibration.
 
 \begin{figure}[htbp]
 	\centering
@@ -342,7 +340,7 @@ Figure~\ref{fig:extrinsic_pipeline}.
 
 The camera-to-target transformation ${}^C_T\mathbf{T}^{(k)}$ at each robot
 pose $k$ is estimated from the ChArUco corner correspondences using the
-PnP formulation described in Section~\ref{subsec:pose_est_pipeline}. The
+PnP formulation. The
 intrinsic matrix $\mathbf{K}^*$ and distortion coefficients $\mathbf{d}^*$
 obtained from the intrinsic calibration (Section~\ref{sec:intrinsic_calibration})
 are passed as inputs to the PNP sover, which internally accounts for lens distortion.
@@ -364,7 +362,7 @@ which are assembled into the homogeneous transformation:
 \noindent where $\mathbf{R}(\mathbf{r})$ is recovered via
 Rodrigues' formula~\eqref{eq:rodrigues}. Each estimate
 ${}^C_T\mathbf{T}^{(k)}$ is validated against the reprojection error
-threshold $\epsilon_{\max}$ defined in equation~\eqref{eq:reproj_error};
+threshold $\epsilon_{\max}$;
 poses failing this criterion are excluded from the dataset.
 
 % ---------------------------------------------------------------
@@ -491,8 +489,8 @@ of the most numerically stable closed-form approaches.
 In this work, all five algorithms are evaluated on the same dataset in
 order to assess their robustness under realistic industrial operating
 conditions. The comparison is performed using the validation metrics
-introduced in Section~\ref{sec:validation}, and the quantitative
-results are reported in Chapter~\ref{sec:results}.
+introduced in before, and the quantitative
+results are reported in Chapter~\ref{subsec:intrinsic_results}.
 
 The OpenCV function call used throughout the experiments is shown below:
 
@@ -536,9 +534,8 @@ robot end-effector.
 Preliminary experiments indicated that the Tsai--Lenz,
 Park--Martin, and Horaud--Dornaika methods produced comparable
 results, whereas the Andreff and Daniilidis formulations exhibited
-greater sensitivity to noise in the estimated target poses. A detailed
-quantitative comparison is presented in Chapter~\ref{sec:results}.
-```
+greater sensitivity to noise in the estimated target poses. .
+
 
 
 % ---------------------------------------------------------------
@@ -637,7 +634,7 @@ estimated $\hat{\mathbf{X}}$ is correct in both rotation and translation.
 		\State Verify translation component via
 		Kabsch--Umeyama alignment~\eqref{eq:kabsch_obj}
 		\State Evaluate $\hat{\mathbf{X}}^*_{\text{method}}$ using
-		validation metrics (Section~\ref{sec:validation})
+		validation metrics
 		\EndFor
 		
 		\State \Return $\hat{\mathbf{X}}^*$ with lowest validation error
@@ -762,7 +759,7 @@ placed on data selection and refinement throughout this chapter.
 
 A primary source of error in the calibration pipeline is noise in the
 translation component of the PnP pose estimates ${}^C_T\mathbf{T}^{(k)}$.
-While outlier filtering (Section~\ref{subsec:data_filtering}) removes
+While outlier filtering removes
 grossly incorrect estimates, residual noise in accepted poses still degrades
 the calibration. To mitigate this, a refinement step based on the
 \textit{Kabsch--Umeyama algorithm} \cite{umeyama1991least} is applied.
